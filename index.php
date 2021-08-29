@@ -36,7 +36,7 @@ include('header.php');
             We help you to explore horizons
         </p>
         <div class="row">
-            <div class="col-sm-12 col-lg-5">
+            <div class="col-sm-12 col-lg-5 text-center">
                 <img src="media\images\home-explore-img1.png" alt="explore horizons banner" class="img-mw380">
 
 
