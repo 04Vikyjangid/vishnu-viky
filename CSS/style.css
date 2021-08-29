@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix);
+/* @import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix);
 @import url('http://fonts.cdnfonts.com/css/austhind');
 @import url('http://fonts.cdnfonts.com/css/philosopher');
 * {
@@ -73,4 +73,78 @@ img {
     width: 100vh;
     height: 100vh;
     padding-top: 150px;
+} */
+
+@font-face {
+  font-family: Austhind;
+  src: url("./../media/fonts/austhind/Austhind.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Azonix;
+  src: url("./../media/fonts/azonix/Azonix.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Philosopher;
+  src: url("./../media/fonts/philosopher/Philosopher.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("./../media/fonts/raleway/Raleway-Regular.otf") format("opentype");
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+section {
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.ff-azonix {
+  font-family: Azonix, Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+.ff-austhind {
+  font-family: Austhind, Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+.ff-navbar {
+  font-family: Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+.ff-philosopher {
+  font-family: Philosopher, Helvetica, "Trebuchet MS", Verdana, Arial,
+    sans-serif;
+}
+
+.ff-raleway {
+  font-family: Raleway, Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+.img-mw380 {
+  width: 100%;
+  max-width: 23.75rem;
+}
+
+.h4p5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: calc(1.4rem + 0.1vw);
+}
+
+.fs-5rem {
+  font-size: calc(3rem + 1.5vw);
+}
+
+footer {
+  background-color: aqua;
 }
