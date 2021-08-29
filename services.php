@@ -1,4 +1,5 @@
 <?php
+$pageTitle = 'Our Services';
 include('header.php');
 ?>
 

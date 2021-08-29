@@ -1,4 +1,5 @@
 <?php
+$pageTitle = 'Signup';
 include('header.php');
 ?>
 
