@@ -143,3 +143,13 @@ section {
 .fs-5rem {
   font-size: calc(3rem + 1.5vw);
 }
+
+#our-expertise .home-expertise-title {
+  font-size: calc(1.7rem + 0.4vw);
+  color: #39cfd6;
+}
+
+#our-expertise img {
+  height: auto;
+  max-height: 6rem;
+}
