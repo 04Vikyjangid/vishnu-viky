@@ -1,0 +1,76 @@
+@import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix);
+@import url('http://fonts.cdnfonts.com/css/austhind');
+@import url('http://fonts.cdnfonts.com/css/philosopher');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000 !important;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background-repeat: no-repeat;
+    background-color: #000000 !important;
+}
+
+.menu {
+    background-color: #000000 !important;
+}
+
+.linkus-logo-text {
+    font-family: Azonix;
+    color: white !important;
+}
+
+.linkus-logo-text-bottom {
+    font-family: Austhind;
+}
+
+.menu-li a {
+    font-family: philosopher;
+}
+
+.banner1 {
+    position: absolute;
+    top: 100px;
+}
+
+.text-pink {
+    color: rgb(241, 83, 136);
+}
+
+.tag-line {
+    font-family: Azonix;
+    font-size: 4.5rem;
+    margin: auto;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.polygon-pink img {
+    float: right;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    width: 20vh;
+    height: 30vh;
+}
+
+.shirt-tie img {
+    width: 100vh;
+    height: 100vh;
+    padding-top: 150px;
+}
