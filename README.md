@@ -7,7 +7,7 @@
 - Logo - Azonix
 - Tagline - Austhind
 - NavBar - [TBA]
-- TopicC Heads - Azonix
+- Topic Heads - Azonix
 - Content Head - Philosopher
 - Content - Raleway
 
@@ -23,8 +23,8 @@
 
 ### Budget
 
-| Days   | Price         |
-| ------ | ------------- |
-| 7 days | 8 thousand rs |
+| Days    | Price         |
+| ------- | ------------- |
+| 13 days | 9 thousand rs |
 
 ### End
