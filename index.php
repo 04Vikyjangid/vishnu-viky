@@ -1,5 +1,5 @@
 <?php
-include('header.php')
+include('header.php');
 ?>
 
 <!-- <div class="container-fluid">
@@ -43,10 +43,12 @@ include('header.php')
             </div>
             <div class="col-sm-12 col-lg-7">
 
-                <p class="h4p5 ff-raleway">LinkUs Is central India's Leading RPO & Digital Solution agency empowering
+                <p class="h4p5 ff-raleway">LinkUs Is central India's Leading RPO & Digital Solution agency
+                    empowering
                     clients with
                     variety of
-                    services satisfying their business needs enabling options to step in to multiple domains & foster
+                    services satisfying their business needs enabling options to step in to multiple domains &
+                    foster
                     new horizons. LinkUs believe in delivering quality products & services, eliminating extra time &
                     cost by our dedicated, scalable and customized recruitment process outsourcing & managed digital
                     solutions.
@@ -55,8 +57,10 @@ include('header.php')
                     equilibrium of
                     predominant
                     innovation and demonstrated human expertise that provides an edge in todays cutthroat business
-                    world. Our recruiting teams act as more than a talent acquisition provider, they are client driven
-                    issue solvers with a straightforward methodology who go above, plan and work to make our connections
+                    world. Our recruiting teams act as more than a talent acquisition provider, they are client
+                    driven
+                    issue solvers with a straightforward methodology who go above, plan and work to make our
+                    connections
                     lead in market.
                 </p>
 
@@ -69,5 +73,5 @@ include('header.php')
 
 
 <?php
-include('footer.php')
+include('footer.php');
 ?>
