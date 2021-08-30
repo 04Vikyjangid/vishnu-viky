@@ -141,12 +141,12 @@ section {
 }
 
 .fs-5rem {
-  font-size: calc(3rem + 1.5vw);
+  font-size: calc(2rem + 1.5vw);
 }
 
 #our-expertise .home-expertise-title {
-  font-size: calc(1.7rem + 0.4vw);
-  color: #39cfd6;
+  font-size: calc(1.4rem + 0.1vw);
+  color: #00e2f9;
 }
 
 #our-expertise img {
