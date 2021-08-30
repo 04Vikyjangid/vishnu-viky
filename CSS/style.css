@@ -129,15 +129,15 @@ section {
 
 .img-mw380 {
   width: 90%;
-  max-width: 23.75rem;
+  max-width: calc(10rem + 10vw);
 }
 
 .h4p5 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
-  font-size: calc(1.4rem + 0.1vw);
+  line-height: 1.4;
+  font-size: calc(1rem + 0.4vw);
 }
 
 .fs-5rem {
