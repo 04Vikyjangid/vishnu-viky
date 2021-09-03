@@ -180,6 +180,44 @@ include('header.php');
 </section>
 
 
+<section id="explore-horizons" class="bg-black">
+    <div class="container text-center">
+        <div id="home-digital-patner">
+            <p class="h1 mt-5 mb-1 ff-Azonix fs-5rem primary-pink">
+                Our Digital Patner
+            </p>
+            <div class="d-flex justify-content-center">
+                <img src="media\images\home-digitalPatner-inchToMilez.png" alt="explore horizons banner"
+                    class="w-100 d-block d-md-none">
+                <img src="media\images\home-digitalPatner-inchToMilez.png" alt="explore horizons banner"
+                    class="w-35 d-none d-md-block">
+            </div>
+        </div>
+        <div id="social" class="mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <spam class="ff-Azonix primary-blue display-1">Link</spam>
+                    <spam class="ff-Azonix primary-pink display-2">With</spam>
+                    <spam class="ff-Azonix primary-blue display-1">Us</spam>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
+                        class="social-icon m-1">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <?php
 include('footer.php');
 ?>
