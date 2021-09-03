@@ -176,3 +176,10 @@ section {
 .w-35 {
   width: 35% !important;
 }
+
+.home-triangle {
+  height: calc(8rem + 2.6vw);
+}
+.home-line {
+  height: 0.1rem;
+}

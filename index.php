@@ -151,6 +151,14 @@ include('header.php');
 
 
 <section id="explore-horizons" class="bg-black">
+    <div class="d-none d-md-block">
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <img src="./media/images/home-digitalPatner-triangle.png" alt="home-digitalPatner-triangle"
+                class="home-triangle">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
+        </div>
+    </div>
+
     <div class="container text-center">
         <div id="home-digital-patner">
             <p class="h1 mt-5 mb-1 ff-Azonix fs-5rem primary-pink">
