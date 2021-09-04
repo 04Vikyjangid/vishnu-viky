@@ -36,8 +36,8 @@ include('header.php');
                 <img src="./media/images/about-img1.png" alt="about-img1" class="about-img1">
             </div>
 
-            <div class="col-12 col-md-6">
-                <h3 class="h1 ff-azonix">Who we are?</h3>
+            <div class="col-12 col-md-6 pt-5">
+                <h3 class="h1 ff-azonix mb-4">Who we are?</h3>
                 <p class="h5 w-75 ff-raleway d-none d-lg-block">
                     We are a team of passionate who work in all horizons
                     serving your human & business needs anywhere
@@ -89,13 +89,13 @@ include('header.php');
     <div class="container-fluid px-2 px-md-5">
         <div class="row">
 
-            <div class="col-12 col-md-6 text-center my-4">
+            <div class="col-12 col-md-6 text-center my-2">
                 <img src="./media/images/about-img2.png" alt="about-img2" class="about-img2">
             </div>
 
 
             <div class="col-12 col-md-6">
-                <h3 class="h1 ff-azonix">Why Us?</h3>
+                <h3 class="h1 ff-azonix mb-4">Why Us?</h3>
                 <p class="h5 w-75 ff-raleway d-none d-lg-block">
                     We are a team of passionate who work in all horizons
                     serving your human & business needs anywhere
