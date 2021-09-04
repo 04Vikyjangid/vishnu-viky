@@ -117,6 +117,18 @@ include('header.php');
 </section>
 
 <section id="explore-horizons" class="bg-black">
+
+
+    <div class="d-none d-md-block">
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-main-triangle" class="home-line">
+            <img src="./media/images/home-explore-horizon-triangle.png" alt="home-explore-horizon-triangle"
+                class="home-triangle">
+        </div>
+    </div>
+
+
+
     <div class="container">
 
         <p class="text-center h1 my-5 ff-Azonix fs-5rem">
