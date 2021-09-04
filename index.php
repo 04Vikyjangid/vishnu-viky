@@ -32,7 +32,7 @@ include('header.php');
 
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <img src="./media/images/home-main-triangle.png" alt="home-main-triangle"
+            <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left"
                 class="home-our-expertise-triangle">
             <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
         </div>
@@ -121,9 +121,8 @@ include('header.php');
 
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <img src="./media/images/home-digitalPatner-line.png" alt="home-main-triangle" class="home-line">
-            <img src="./media/images/home-explore-horizon-triangle.png" alt="home-explore-horizon-triangle"
-                class="home-triangle">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-grey-triangle-left" class="home-line">
+            <img src="./media/images/home-grey-triangle-right.png" alt="home-grey-triangle-right" class="home-triangle">
         </div>
     </div>
 
@@ -174,8 +173,7 @@ include('header.php');
 
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <img src="./media/images/home-digitalPatner-triangle.png" alt="home-digitalPatner-triangle"
-                class="home-triangle">
+            <img src="./media/images/home-pink-triangle-left.png" alt="home-pink-triangle-left" class="home-triangle">
             <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
         </div>
     </div>
@@ -271,9 +269,8 @@ include('header.php');
 
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <img src="./media/images/home-digitalPatner-line.png" alt="home-main-triangle" class="home-line">
-            <img src="./media/images/home-explore-horizon-triangle.png" alt="home-explore-horizon-triangle"
-                class="home-triangle">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-grey-triangle-left" class="home-line">
+            <img src="./media/images/home-grey-triangle-right.png" alt="home-grey-triangle-right" class="home-triangle">
         </div>
     </div>
 
@@ -327,8 +324,7 @@ include('header.php');
 <section id="explore-horizons" class="bg-black">
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <img src="./media/images/home-digitalPatner-triangle.png" alt="home-digitalPatner-triangle"
-                class="home-triangle">
+            <img src="./media/images/home-pink-triangle-left.png" alt="home-pink-triangle-left" class="home-triangle">
             <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
         </div>
     </div>
