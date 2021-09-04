@@ -129,18 +129,59 @@ include('header.php');
         </div>
     </div>
 
-
-
-
-
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left"
-                class="left-grey-triangle">
+
             <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
+            <img src="./media/images/home-grey-triangle-right.png" alt="home-grey-triangle-right"
+                class="right-grey-triangle">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<section id="about-what-we-do" class="mt-4">
+    <div class="container-fluid px-2 px-md-5">
+        <div class="row">
+
+            <div class="col-12 col-md-6 text-center d-block d-md-none my-2">
+                <img src="./media/images/about-img3.png" alt="about-img3" class="about-img3">
+            </div>
+
+
+            <div class="col-12 col-md-6 pt-5">
+                <h3 class="h1 ff-azonix mb-4">What we do?</h3>
+
+                <ul class="h5 w-75 ff-raleway d-none d-lg-block">
+                    <li class="">We create lifelong relationships with our clients.</li>
+                    <li class="">We Communicate on ideas & decide best for you.</li>
+                    <li class="">We discuss & plan goal driven ideas</li>
+                    <li class="">We create dynamic & creative strategies for your BRAND.</li>
+                    <li class="">We Focus on QUALITY based KPIs</li>
+                    <li class="">We uplift your BRAND with all possibilities among you competitors</li>
+                </ul>
+                <ul class="h5 w-100 ff-raleway d-block d-lg-none">
+                    <li class="">We create lifelong relationships with our clients.</li>
+                    <li class="">We Communicate on ideas & decide best for you.</li>
+                    <li class="">We discuss & plan goal driven ideas</li>
+                    <li class="">We create dynamic & creative strategies for your BRAND.</li>
+                    <li class="">We Focus on QUALITY based KPIs</li>
+                    <li class="">We uplift your BRAND with all possibilities among you competitors</li>
+                </ul>
+
+            </div>
+            <div class="col-12 col-md-6 text-center d-none d-md-block my-4">
+                <img src="./media/images/about-img3.png" alt="about-img3" class="about-img3">
+            </div>
         </div>
     </div>
 </section>
+
+
+
 
 
 <?php
