@@ -162,7 +162,6 @@ section {
   max-height: 6rem;
 }
 
-
 #reach-us-out .form-control,
 #reach-us-out .form-select {
   border-bottom: 1px solid #00e2f9;
@@ -172,7 +171,6 @@ section {
   background-color: #000;
   color: #a1a1a1;
 }
-
 
 #explore-horizons #social .social-icon {
   height: calc(1.5rem + 0.4vw);
@@ -196,5 +194,4 @@ section {
 
 .home-line {
   height: 0.1rem;
-
 }

@@ -149,6 +149,101 @@ include('header.php');
     </div>
 </section>
 
+<section id="work-process">
+
+    <div class="d-none d-md-block">
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <img src="./media/images/home-digitalPatner-triangle.png" alt="home-digitalPatner-triangle"
+                class="home-triangle">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
+        </div>
+    </div>
+
+
+
+    <div class="container mb-5">
+        <p class="h1 mt-5 ff-Azonix fs-5rem text-center">
+            Work Process at LinkUs
+        </p>
+
+
+    </div>
+
+
+
+    <div class="cd-timeline js-cd-timeline">
+        <div class="container max-width-lg cd-timeline__container">
+
+            <div class="cd-timeline__block px-3">
+                <div class="cd-timeline__img cd-timeline__img--picture">
+                    <img src="./media/images/home-workProcess-icon1.png" alt="Picture">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component px-3">
+                    <h2 class="ff-azonix">IDEA</h2>
+                    <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
+                        laudantium ipsa ad debitis unde? Iste
+                        voluptatibus minus veritatis qui ut.</p>
+
+
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block px-3">
+                <div class="cd-timeline__img cd-timeline__img--movie">
+                    <img src="./media/images/home-workProcess-icon2.png" alt="Movie">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component px-3">
+                    <h2 class="ff-azonix">Planning</h2>
+                    <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
+                        laudantium ipsa ad debitis unde? Iste
+                        voluptatibus minus veritatis qui ut.</p>
+
+
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block px-3">
+                <div class="cd-timeline__img cd-timeline__img--picture">
+                    <img src="./media/images/home-workProcess-icon3.png" alt="Picture">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component px-3">
+                    <h2 class="ff-azonix">Working</h2>
+                    <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
+                        laudantium ipsa ad debitis unde? Iste
+                        voluptatibus minus veritatis qui ut.</p>
+
+
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block px-3">
+                <div class="cd-timeline__img cd-timeline__img--location">
+                    <img src="./media/images/home-workProcess-icon4.png" alt="Location">
+                </div> <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content text-component px-3">
+                    <h2 class="ff-azonix">Goal</h2>
+                    <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
+                        laudantium ipsa ad debitis unde? Iste
+                        voluptatibus minus veritatis qui ut.</p>
+
+
+                </div> <!-- cd-timeline__content -->
+            </div> <!-- cd-timeline__block -->
+
+        </div>
+
+    </div>
+
+
+</section>
 
 
 <section id="reach-us-out" class="bg-black">
