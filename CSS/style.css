@@ -106,6 +106,14 @@ section {
   color: #ffffff;
 }
 
+.primary-pink {
+  color: #db135d;
+}
+
+.primary-blue {
+  color: #00e2f9;
+}
+
 .ff-azonix {
   font-family: Azonix, Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
 }
@@ -129,30 +137,31 @@ section {
 
 .img-mw380 {
   width: 90%;
-  max-width: 23.75rem;
+  max-width: calc(10rem + 10vw);
 }
 
 .h4p5 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
-  font-size: calc(1.4rem + 0.1vw);
+  line-height: 1.4;
+  font-size: calc(1rem + 0.4vw);
 }
 
 .fs-5rem {
-  font-size: calc(3rem + 1.5vw);
+  font-size: calc(2rem + 1.5vw);
 }
 
 #our-expertise .home-expertise-title {
-  font-size: calc(1.7rem + 0.4vw);
-  color: #39cfd6;
+  font-size: calc(1.4rem + 0.1vw);
+  color: #00e2f9;
 }
 
 #our-expertise img {
   height: auto;
   max-height: 6rem;
 }
+
 
 #reach-us-out .form-control,
 #reach-us-out .form-select {
@@ -162,4 +171,30 @@ section {
   border-right: 0;
   background-color: #000;
   color: #a1a1a1;
+}
+
+
+#explore-horizons #social .social-icon {
+  height: calc(1.5rem + 0.4vw);
+}
+
+#social .display-1 {
+  font-size: calc(3rem + 3.5vw);
+}
+
+#social .display-2 {
+  font-size: calc(1.2rem + 2.6vw);
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.home-triangle {
+  height: calc(8rem + 2.6vw);
+}
+
+.home-line {
+  height: 0.1rem;
+
 }
