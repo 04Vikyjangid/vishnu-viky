@@ -162,6 +162,18 @@ section {
   max-height: 6rem;
 }
 
+
+#reach-us-out .form-control,
+#reach-us-out .form-select {
+  border-bottom: 1px solid #00e2f9;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #000;
+  color: #a1a1a1;
+}
+
+
 #explore-horizons #social .social-icon {
   height: calc(1.5rem + 0.4vw);
 }
@@ -169,6 +181,7 @@ section {
 #social .display-1 {
   font-size: calc(3rem + 3.5vw);
 }
+
 #social .display-2 {
   font-size: calc(1.2rem + 2.6vw);
 }
@@ -180,6 +193,8 @@ section {
 .home-triangle {
   height: calc(8rem + 2.6vw);
 }
+
 .home-line {
   height: 0.1rem;
+
 }
