@@ -29,6 +29,15 @@ include('header.php');
 </div> -->
 
 <section id="our-expertise" class="bg-black">
+
+    <div class="d-none d-md-block">
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <img src="./media/images/home-main-triangle.png" alt="home-main-triangle"
+                class="home-our-expertise-triangle">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
+        </div>
+    </div>
+
     <div class="container">
         <p class="text-center h1 my-5 ff-azonix fs-5rem">
             Our Expertise
@@ -50,7 +59,7 @@ include('header.php');
         <div class="row">
 
             <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img1.png" alt="">
+                <img src="./media/images/home-expertise-img1.png" alt="" class="our-expertise-icons">
                 <p class="h3 ff-raleway home-expertise-title mt-3">
                     Recrutment Process Outsourcing
                 </p>
@@ -58,7 +67,7 @@ include('header.php');
 
 
             <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img2.png" alt="">
+                <img src="./media/images/home-expertise-img2.png" alt="" class="our-expertise-icons">
                 <p class="h3 ff-raleway home-expertise-title mt-3">
                     Digital Marketing Solutions
                 </p>
@@ -66,14 +75,14 @@ include('header.php');
 
 
             <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img3.png" alt="">
+                <img src="./media/images/home-expertise-img3.png" alt="" class="our-expertise-icons">
                 <p class="h3 ff-raleway home-expertise-title mt-3">
                     Payrol Handeling & Management
                 </p>
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img4.png" alt="">
+                <img src="./media/images/home-expertise-img4.png" alt="" class="our-expertise-icons">
                 <p class="h3 ff-raleway home-expertise-title mt-3">
                     Training & Development
                 </p>
@@ -81,7 +90,7 @@ include('header.php');
 
 
             <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img5.png" alt="">
+                <img src="./media/images/home-expertise-img5.png" alt="" class="our-expertise-icons">
                 <p class="h3 ff-raleway home-expertise-title mt-3">
                     Counselling
                 </p>
@@ -90,7 +99,7 @@ include('header.php');
 
 
             <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img6.png" alt="">
+                <img src="./media/images/home-expertise-img6.png" alt="" class="our-expertise-icons">
                 <p class="h3 ff-raleway home-expertise-title mt-3">
                     Corporate Events
                 </p>
@@ -108,6 +117,18 @@ include('header.php');
 </section>
 
 <section id="explore-horizons" class="bg-black">
+
+
+    <div class="d-none d-md-block">
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-main-triangle" class="home-line">
+            <img src="./media/images/home-explore-horizon-triangle.png" alt="home-explore-horizon-triangle"
+                class="home-triangle">
+        </div>
+    </div>
+
+
+
     <div class="container">
 
         <p class="text-center h1 my-5 ff-Azonix fs-5rem">
@@ -247,6 +268,16 @@ include('header.php');
 
 
 <section id="reach-us-out" class="bg-black">
+
+    <div class="d-none d-md-block">
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-main-triangle" class="home-line">
+            <img src="./media/images/home-explore-horizon-triangle.png" alt="home-explore-horizon-triangle"
+                class="home-triangle">
+        </div>
+    </div>
+
+
     <div class="container text-center">
         <p class="h1 mt-5 ff-Azonix fs-5rem">
             Reach Us Out
