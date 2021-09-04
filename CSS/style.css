@@ -158,8 +158,7 @@ section {
 }
 
 #our-expertise .our-expertise-icons {
-  height: auto;
-  max-height: 6rem;
+  height: 5rem;
 }
 
 #our-expertise img.home-our-expertise-triangle {
