@@ -58,51 +58,58 @@ include('header.php');
 
         <div class="row">
 
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img1.png" alt="" class="our-expertise-icons">
-                <p class="h3 ff-raleway home-expertise-title mt-3">
-                    Recrutment Process Outsourcing
-                </p>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
+                <span>
+                    <img src="./media/images/home-expertise-img1.png" alt="" class="our-expertise-icons">
+                    <p class="h3 ff-raleway home-expertise-title mt-3">
+                        Recrutment Process Outsourcing
+                    </p>
+                </span>
             </div>
 
 
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img2.png" alt="" class="our-expertise-icons">
-                <p class="h3 ff-raleway home-expertise-title mt-3">
-                    Digital Marketing Solutions
-                </p>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
+                <span><img src="./media/images/home-expertise-img2.png" alt="" class="our-expertise-icons">
+                    <p class="h3 ff-raleway home-expertise-title mt-3">
+                        Digital Marketing Solutions
+                    </p>
+                </span>
             </div>
 
 
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img3.png" alt="" class="our-expertise-icons">
-                <p class="h3 ff-raleway home-expertise-title mt-3">
-                    Payrol Handeling & Management
-                </p>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
+                <span><img src="./media/images/home-expertise-img3.png" alt="" class="our-expertise-icons">
+                    <p class="h3 ff-raleway home-expertise-title mt-3">
+                        Payrol Handeling & Management
+                    </p>
+                </span>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img4.png" alt="" class="our-expertise-icons">
-                <p class="h3 ff-raleway home-expertise-title mt-3">
-                    Training & Development
-                </p>
-            </div>
-
-
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img5.png" alt="" class="our-expertise-icons">
-                <p class="h3 ff-raleway home-expertise-title mt-3">
-                    Counselling
-                </p>
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
+                <span><img src="./media/images/home-expertise-img4.png" alt="" class="our-expertise-icons">
+                    <p class="h3 ff-raleway home-expertise-title mt-3">
+                        Training & Development
+                    </p>
+                </span>
             </div>
 
 
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
+                <span> <img src="./media/images/home-expertise-img5.png" alt="" class="our-expertise-icons">
+                    <p class="h3 ff-raleway home-expertise-title mt-3">
+                        Counselling
+                    </p>
+                </span>
+            </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-5 text-center mt-5">
-                <img src="./media/images/home-expertise-img6.png" alt="" class="our-expertise-icons">
-                <p class="h3 ff-raleway home-expertise-title mt-3">
-                    Corporate Events
-                </p>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
+                <span><img src="./media/images/home-expertise-img6.png" alt="" class="our-expertise-icons">
+                    <p class="h3 ff-raleway home-expertise-title mt-3">
+                        Corporate Events
+                    </p>
+                </span>
             </div>
 
 
@@ -111,7 +118,7 @@ include('header.php');
 
 
         </div>
-        <div class="text-center"> <button type="button"
+        <div class="text-center mt-4"> <button type="button"
                 class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Get a quote</button></div>
     </div>
 </section>
