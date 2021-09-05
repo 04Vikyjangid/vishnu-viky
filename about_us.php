@@ -37,7 +37,7 @@ include('header.php');
             </div>
 
             <div class="col-12 col-md-6 pt-5">
-                <h3 class="h1 ff-azonix mb-4">Who we are?</h3>
+                <h3 class="h1 ff-azonix mb-4 ms-1">Who we are?</h3>
                 <p class="h5 w-75 ff-raleway d-none d-lg-block">
                     We are a team of passionate who work in all horizons
                     serving your human & business needs anywhere
@@ -94,8 +94,8 @@ include('header.php');
             </div>
 
 
-            <div class="col-12 col-md-6">
-                <h3 class="h1 ff-azonix mb-4">Why Us?</h3>
+            <div class="col-12 col-md-6 pt-5">
+                <h3 class="h1 ff-azonix mb-4 ms-1">Why Us?</h3>
                 <p class="h5 w-75 ff-raleway d-none d-lg-block">
                     We are a team of passionate who work in all horizons
                     serving your human & business needs anywhere
@@ -153,7 +153,7 @@ include('header.php');
 
 
             <div class="col-12 col-md-6 pt-5">
-                <h3 class="h1 ff-azonix mb-4">What we do?</h3>
+                <h3 class="h1 ff-azonix mb-4 ms-1">What we do?</h3>
 
                 <ul class="h5 w-75 ff-raleway d-none d-lg-block">
                     <li class="">We create lifelong relationships with our clients.</li>
@@ -222,7 +222,7 @@ include('header.php');
 
 
             <div class="col-12 col-lg-6 pt-5">
-                <h3 class="h1 ff-azonix mb-5">FAQs</h3>
+                <h3 class="h1 ff-azonix mb-5 ms-3">FAQs</h3>
 
                 <div class="accordion ff-raleway" id="aboutAccordion">
                     <div class="accordion-item">
