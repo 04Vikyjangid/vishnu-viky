@@ -212,6 +212,102 @@ include('header.php');
 </section>
 
 
+<section id="about-faqs" class="mt-4">
+    <div class="container-fluid px-2 px-md-5">
+        <div class="row">
+
+            <div class="col-12 col-lg-6 text-center d-block d-lg-none my-2">
+                <img src="./media/images/about-img4.png" alt="about-img4" class="about-img4">
+            </div>
+
+
+            <div class="col-12 col-lg-6 pt-5">
+                <h3 class="h1 ff-azonix mb-5">FAQs</h3>
+
+                <div class="accordion ff-raleway" id="aboutAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <span class="accordianSign me-3"> + </span> What we offer to our clients ?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere veniam
+                                rem eaque ut at dolorem excepturi assumenda laudantium error iusto, officiis itaque
+                                doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores, dolorem
+                                non deserunt inventore minus cum voluptate! Atque, incidunt aspernatur? Accusamus,
+                                aspernatur? Fugiat, deserunt rerum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="accordianSign me-3"> + </span> How we help you to fulfill your RPO needs?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere veniam
+                                rem eaque ut at dolorem excepturi assumenda laudantium error iusto, officiis itaque
+                                doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores, dolorem
+                                non deserunt inventore minus cum voluptate! Atque, incidunt aspernatur? Accusamus,
+                                aspernatur? Fugiat, deserunt rerum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="accordianSign me-3"> + </span> What are the best services we offer
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere veniam
+                                rem eaque ut at dolorem excepturi assumenda laudantium error iusto, officiis itaque
+                                doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores, dolorem
+                                non deserunt inventore minus cum voluptate! Atque, incidunt aspernatur? Accusamus,
+                                aspernatur? Fugiat, deserunt rerum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="accordianSign me-3"> + </span> What are the best services we offer
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere veniam
+                                rem eaque ut at dolorem excepturi assumenda laudantium error iusto, officiis itaque
+                                doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores, dolorem
+                                non deserunt inventore minus cum voluptate! Atque, incidunt aspernatur? Accusamus,
+                                aspernatur? Fugiat, deserunt rerum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-lg-6 text-center d-none d-lg-block my-4">
+                <img src="./media/images/about-img4.png" alt="about-img4" class="about-img4">
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php
 include('footer.php');
 ?>
