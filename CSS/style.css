@@ -37,6 +37,49 @@ section {
     color: #00e2f9;
 }
 
+
+/* index page first section css start */
+
+.tag-line {
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shirt-tie img {
+    height: 90vh;
+    width: 80vh;
+    margin-left: 20px;
+}
+
+.shirt-tie {
+    justify-content: end;
+}
+
+.text-blue {
+    color: #14e9ff;
+}
+
+.nav-link.active {
+    color: #14e9ff;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: deeppink;
+}
+
+#logo {
+    width: 500px;
+}
+
+.menu-li {
+    margin-left: auto;
+}
+
 .ff-azonix {
     font-family: Azonix, Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
 }
@@ -280,7 +323,18 @@ About
     font-size: 2rem;
     font-family: fantasy;
 }
+
 @media screen and (max-width: 992px) {
+    .tag-line {
+        font-size: 3.5rem;
+        padding-top: 20px;
+    }
+    .shirt-tie img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .tag-line {
         font-size: 3.5rem;
         padding-top: 20px;
@@ -294,8 +348,14 @@ About
     .tag-line {
         font-size: 3rem;
     }
+    #logo {
+        width: 100% !important;
+    }
     .shirt-tie img {
         height: 400px;
         padding-top: 50px;
+    }
+    #pink-triangle {
+        display: none;
     }
 }

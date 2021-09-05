@@ -2,30 +2,29 @@
 $pageTitle = 'Home';
 include('header.php');
 ?>
-<div class="container-fluid">
-    <div class="banner1">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <h1 class="tag-line ff-Azonix text-white text-center">
-                    <span class="text-pink fs-5rem">LINK</span> YOUR
-                    <br>BUSINESS<br>
-                    WITH <span class="text-pink fs-5rem">US</span>
-                </h1>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="row">
-                    <div class="shirt-tie text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <img src="./media/images/home-main-img1.png" alt="shirt-tie" class="">
-                    </div>
-                    <div class="polygon-pink col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <img class="" src="./Images/home_icon/Polygon_pink-left.png" alt="pink-triangle" />
-                    </div>
-                </div>
-            </div>
-        </div>
+<section id="index-main">
+    <div class="d-flex justify-content-end align-items-center">
+        <img src="./media/images/home-pink-triangle-right.png" id="pink-triangle" alt="pink-triangle" />
     </div>
-</div>
-
+    <div class="container-fluid">
+       <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="d-flex justify-content-between text-center align-items-center ">
+                    <h2 class="tag-line py-5 ff-Azonix text-white text-center">
+                        <span class="text-blue fs-6rem">LINK</span> YOUR
+                        <br>BUSINESS<br>
+                        WITH <span class="text-blue fs-6rem">US</span>
+                    </h2>  
+                </div>         
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">         
+                <div class="d-flex justify-content-between align-items-center shirt-tie">
+                    <img src="./media/images/shirt-tie.png" alt="shirt-tie">  
+                </div> 
+            </div>  
+        </div>
+    </div> 
+</section>
 <section id="our-expertise" class="bg-black">
 
     <div class="d-none d-md-block">

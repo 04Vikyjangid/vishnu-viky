@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/timeline.css" />
-    <link rel="stylesheet" type="text/css" href="./css/login.css" />
-    <script src="./js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/timeline.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/login.css" />
+    <script src="./JS/script.js"></script>
+    <script src="./JS/navbar.js"></script>
     <title>LinkUS Solutions<?php echo ' - '.$pageTitle ?? '' ?></title>
 </head>
+
+
 
 <body>
     <?php 
