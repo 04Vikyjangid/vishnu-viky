@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" href="./css/timeline.css" />
+    <link rel="stylesheet" type="text/css" href="./css/login.css" />
     <title>LinkUS Solutions<?php echo ' - '.$pageTitle ?? '' ?></title>
 </head>
 
