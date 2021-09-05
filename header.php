@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" href="./css/timeline.css" />
     <link rel="stylesheet" type="text/css" href="./css/login.css" />
+    <script src="./js/script.js"></script>
     <title>LinkUS Solutions<?php echo ' - '.$pageTitle ?? '' ?></title>
 </head>
 
