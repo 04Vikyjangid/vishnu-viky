@@ -181,7 +181,35 @@ include('header.php');
 </section>
 
 
+<section id="our-vision">
+    <div class="container text-center mt-5">
+        <div class="my-5 d-none d-md-block"></div>
 
+
+        <h1 class="my-5 ff-azonix">Our Vision</h1>
+        <p class="h3 ff-raleway d-none d-md-block fw-bolder">
+            To deliver high end <span class="primary-blue">QUALITY</span> products <span
+                class="primary-blue">COMMITTMENT</span> of <span class="primary-blue">TIME</span> at
+            <span class="primary-blue">COMPETITIVE</span> price for you to explore all <span
+                class="primary-blue">HORIZONS</span>
+        </p>
+        <p class="h5 ff-raleway d-block d-md-none fw-bolder">
+            To deliver high end <span class="primary-blue">QUALITY</span> products <span
+                class="primary-blue">COMMITTMENT</span> of <span class="primary-blue">TIME</span> at
+            <span class="primary-blue">COMPETITIVE</span> price for you to explore all <span
+                class="primary-blue">HORIZONS</span>
+        </p>
+    </div>
+
+    <div class="d-none d-md-block">
+        <div class="d-flex justify-content-between align-items-center my-3">
+
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
+            <img src="./media/images/home-grey-triangle-right.png" alt="home-grey-triangle-right"
+                class="right-grey-triangle">
+        </div>
+    </div>
+</section>
 
 
 <?php
