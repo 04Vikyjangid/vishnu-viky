@@ -9,28 +9,28 @@
                     <span class="navbar-toggler-icon">...</span>
                 </button>
                 <div class="collapse navbar-collapse" id="main_nav">
-                    <ul class="navbar-nav menu-li ff-philosopher ">
+                    <ul class="navbar-nav menu-li ff-raleway ">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.php">HOME</a>
+                            <a class="nav-link <?php if($pageTitle=='Home'){echo 'active';}?>" aria-current="page" href="./index.php">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./about_us.php">ABOUT US</a>
+                            <a class="nav-link <?php if($pageTitle=='About_Us'){echo 'active';}?>" href="./about_us.php">ABOUT US</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle <?php if($pageTitle=='Our Services'){echo 'active';}?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 SERVICES
                             </a>
                             <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/services.php">RPO</a></li>
-                                <li><a class="dropdown-item" href="/services.php">Training & Placements</a></li>
-                                <li><a class="dropdown-item" href="/services.php">SEO</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">RPO</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Training & Placements</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">SEO</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact_us.php">CONTACT US</a>
+                            <a class="nav-link <?php if($pageTitle=='Contact_Us'){echo 'active';}?>" href="./contact_us.php">CONTACT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./login.php"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <a class="nav-link <?php if($pageTitle=='Login & Sign up'){echo 'active';}?>" href="./login.php"><i class="fa fa-user" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>

@@ -1,14 +1,15 @@
 <?php
-$pageTitle = 'About Us';
+$pageTitle = 'About_Us';
 include('header.php');
 ?>
 
 <section>
     <div class="container text-center mt-5">
         <div class="my-5 d-none d-md-block"></div>
-
-
-        <img src="./media/images/about-hello.png" alt="hello" class="mt-5 w-50">
+       <div class="wrapper">
+             <h1 class="ff-azonix">HELLO</h1>
+        </div>
+        <!-- <img src="./media/images/about-hello.png" alt="hello" class="mt-5 w-50"> -->
         <p class="h3 ff-raleway d-none d-md-block">
             LinkUs is a multipurpose solutions based company established in HEART of INDIA, delivering its widest range
             of

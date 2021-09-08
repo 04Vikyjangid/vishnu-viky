@@ -9,8 +9,8 @@ include('header.php');
     <div class="container-fluid">
        <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <svg class="intro">
-                    <text text-anchor="start" x="10" y="30" class="ff-Azonix text text-stroke" clip-path="url(#text1)">Link</text>
+                <svg class="intro ff-Azonix text-center">
+                    <text text-anchor="start" x="10" y="30" class="h2 ff-Azonix text text-stroke" clip-path="url(#text1)">Link</text>
                     <text text-anchor="start" x="10" y="50" class="ff-Azonix text text-stroke" clip-path="url(#text2)">YOUR BUSINESS WITH</text>
                     <text text-anchor="start" x="10" y="70" class="ff-Azonix text text-stroke" clip-path="url(#text3)">US</text>
                     <text text-anchor="start" x="10" y="30" class="ff-Azonix text text-stroke text-stroke-2" clip-path="url(#text1)">LINK</text>
@@ -21,7 +21,7 @@ include('header.php');
                         <text text-anchor="start" x="10" y="30" class="ff-Azonix text">LINK</text>
                         </clipPath>
                         <clipPath id="text2">
-                        <text>Your Business With</text>
+                        <text class="ff-Azonix text-white">Your Business With</text>
                         </clipPath>
                         <clipPath id="text3">
                         <text text-anchor="start" x="10" y="70" class="ff-Azonix text">US</text>

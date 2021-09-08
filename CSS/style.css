@@ -60,18 +60,7 @@ section {
     color: #14e9ff;
 }
 
-
-/* .navbar-nav>.active>a {
-    color: #14e9ff;
-} */
-
-
-/* 
 .nav-link.active {
-    color: #14e9ff;
-} */
-
-.active {
     color: #14e9ff;
 }
 
@@ -95,12 +84,11 @@ section {
 /* index page text svg css start */
 
 svg.intro {
-    max-width: 100%;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%; */
     transform: translate(-50%, -50%);
-    box-shadow: 0 30px 50px -20px #2e0642;
+    /* box-shadow: 0 30px 50px -20px #2e0642; */
 }
 
 svg.intro .text {
@@ -108,8 +96,7 @@ svg.intro .text {
 }
 
 svg.intro.go .text {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-family: Azonix, Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
     text-transform: uppercase;
     display: block;
 }
@@ -147,9 +134,9 @@ svg.intro.go .text-stroke:nth-child(6) {
 }
 
 @keyframes dash {
-    100% {
+    /* 100% {
         stroke-dashoffset: 0;
-    }
+    } */
 }
 
 
@@ -336,6 +323,35 @@ span::after {
 /*
 About
 */
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper h1 {
+    line-height: 1 !important;
+    font-size: 10.5em !important;
+    color: transparent !important;
+    text-transform: uppercase !important;
+    background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    animation: animate 2s linear infinite;
+    -webkit-background-size: 500% !important;
+    background-size: 500% !important;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 100% !important;
+    }
+    50% {
+        background-position: 100% 0 !important;
+    }
+    100% {
+        background-position: 0 100% !important;
+    }
+}
 
 #about-who-are-we img.about-img1 {
     max-width: 100%;
