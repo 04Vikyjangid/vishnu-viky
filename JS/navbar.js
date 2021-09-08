@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-document.getElementsByClassName("nav-link").click(function() {
-  document.getElementsByTagName("a").addClass("active");
+$(document).ready(function () {
+$("ul.navbar-nav > li").click(function (e) {
+    $("ul.navbar-nav > li").removeClass("active");
+    $(this).addClass("active");
+    });
 });

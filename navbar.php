@@ -21,9 +21,9 @@
                                 SERVICES
                             </a>
                             <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">DIGITAL MARKETING</a></li>
-                                <li><a class="dropdown-item" href="#">WEB DEVELOPMENT</a></li>
-                                <li><a class="dropdown-item" href="#">SEO</a></li>
+                                <li><a class="dropdown-item" href="/services.php">RPO</a></li>
+                                <li><a class="dropdown-item" href="/services.php">Training & Placements</a></li>
+                                <li><a class="dropdown-item" href="/services.php">SEO</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">

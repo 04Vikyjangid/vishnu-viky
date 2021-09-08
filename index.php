@@ -9,13 +9,34 @@ include('header.php');
     <div class="container-fluid">
        <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="d-flex justify-content-between text-center align-items-center ">
+                <svg class="intro">
+                    <text text-anchor="start" x="10" y="30" class="ff-Azonix text text-stroke" clip-path="url(#text1)">Link</text>
+                    <text text-anchor="start" x="10" y="50" class="ff-Azonix text text-stroke" clip-path="url(#text2)">YOUR BUSINESS WITH</text>
+                    <text text-anchor="start" x="10" y="70" class="ff-Azonix text text-stroke" clip-path="url(#text3)">US</text>
+                    <text text-anchor="start" x="10" y="30" class="ff-Azonix text text-stroke text-stroke-2" clip-path="url(#text1)">LINK</text>
+                    <text text-anchor="start" x="10" y="50" class="ff-Azonix text text-stroke text-stroke-2" clip-path="url(#text2)">YOUR BUSINESS WITH</text>
+                    <text text-anchor="start" x="10" y="70" class="ff-Azonix text text-stroke text-stroke-2" clip-path="url(#text3)">US</text>
+                    <defs>
+                        <clipPath id="text1">
+                        <text text-anchor="start" x="10" y="30" class="ff-Azonix text">LINK</text>
+                        </clipPath>
+                        <clipPath id="text2">
+                        <text>Your Business With</text>
+                        </clipPath>
+                        <clipPath id="text3">
+                        <text text-anchor="start" x="10" y="70" class="ff-Azonix text">US</text>
+                        </clipPath>
+                    </defs>
+                </svg>
+    
+            
+                <!-- <div class="d-flex justify-content-between text-center align-items-center ">
                     <h2 class="tag-line py-5 ff-Azonix text-white text-center">
                         <span class="text-blue fs-6rem">LINK</span> YOUR
                         <br>BUSINESS<br>
                         WITH <span class="text-blue fs-6rem">US</span>
                     </h2>  
-                </div>         
+                </div>          -->
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">         
                 <div class="d-flex justify-content-between align-items-center shirt-tie">
