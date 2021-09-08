@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Austhind;
     src: url("./../media/fonts/austhind/Austhind.otf") format("opentype");
@@ -41,9 +42,22 @@ section {
 /* index page first section css start */
 
 .tag-line {
-    font-size: 5rem;
+    font-size: 4.5rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.your {
+    font-size: 5rem;
+}
+
+.with {
+    font-size: 5rem;
+}
+
+.business {
+    font-size: 7rem;
+    line-height: 0.85;
 }
 
 .shirt-tie img {
@@ -79,68 +93,6 @@ section {
 .menu-li {
     margin-left: auto;
 }
-
-
-/* index page text svg css start */
-
-svg.intro {
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
-    transform: translate(-50%, -50%);
-    /* box-shadow: 0 30px 50px -20px #2e0642; */
-}
-
-svg.intro .text {
-    display: none;
-}
-
-svg.intro.go .text {
-    font-family: Azonix, Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
-    text-transform: uppercase;
-    display: block;
-}
-
-svg.intro.go .text-stroke {
-    fill: none;
-    stroke: deeppink;
-    stroke-width: 2.8px;
-    stroke-dashoffset: -900;
-    stroke-dasharray: 900;
-    stroke-linecap: butt;
-    stroke-linejoin: round;
-    animation: dash 2.5s ease-in-out forwards;
-}
-
-svg.intro.go .text-stroke:nth-child(2) {
-    animation-delay: 0.3s;
-}
-
-svg.intro.go .text-stroke:nth-child(3) {
-    animation-delay: 0.9s;
-}
-
-svg.intro.go .text-stroke-2 {
-    stroke: #00e2f9;
-    animation-delay: 1.2s;
-}
-
-svg.intro.go .text-stroke:nth-child(5) {
-    animation-delay: 1.5s;
-}
-
-svg.intro.go .text-stroke:nth-child(6) {
-    animation-delay: 1.8s;
-}
-
-@keyframes dash {
-    /* 100% {
-        stroke-dashoffset: 0;
-    } */
-}
-
-
-/* index page text svg css End */
 
 .ff-azonix {
     font-family: Azonix, Helvetica, "Trebuchet MS", Verdana, Arial, sans-serif;
@@ -323,35 +275,6 @@ span::after {
 /*
 About
 */
-
-.wrapper {
-    width: 100%;
-}
-
-.wrapper h1 {
-    line-height: 1 !important;
-    font-size: 10.5em !important;
-    color: transparent !important;
-    text-transform: uppercase !important;
-    background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12) !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    animation: animate 2s linear infinite;
-    -webkit-background-size: 500% !important;
-    background-size: 500% !important;
-}
-
-@keyframes animate {
-    0% {
-        background-position: 0 100% !important;
-    }
-    50% {
-        background-position: 100% 0 !important;
-    }
-    100% {
-        background-position: 0 100% !important;
-    }
-}
 
 #about-who-are-we img.about-img1 {
     max-width: 100%;

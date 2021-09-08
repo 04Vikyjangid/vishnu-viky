@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
     <link rel="stylesheet" type="text/css" href="./CSS/timeline.css" />
     <link rel="stylesheet" type="text/css" href="./CSS/login.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 </head>
 

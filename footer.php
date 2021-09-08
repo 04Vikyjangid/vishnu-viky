@@ -109,8 +109,8 @@
 <script src="./JS/bootstrap.bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src=
-"https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js">
-      </script>
+    "https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js">
+</script>
 <script src="./JS/navbar.js"></script>
 <script src="./JS/script.js"></script>
 </html>

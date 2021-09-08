@@ -6,7 +6,7 @@ include('header.php');
 <section>
     <div class="container text-center mt-5">
         <div class="my-5 d-none d-md-block"></div>
-       <div class="wrapper">
+       <div class="hello-div">
              <h1 class="ff-azonix">HELLO</h1>
         </div>
         <!-- <img src="./media/images/about-hello.png" alt="hello" class="mt-5 w-50"> -->

@@ -8,35 +8,22 @@ include('header.php');
     </div>
     <div class="container-fluid">
        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <svg class="intro ff-Azonix text-center">
-                    <text text-anchor="start" x="10" y="30" class="h2 ff-Azonix text text-stroke" clip-path="url(#text1)">Link</text>
-                    <text text-anchor="start" x="10" y="50" class="ff-Azonix text text-stroke" clip-path="url(#text2)">YOUR BUSINESS WITH</text>
-                    <text text-anchor="start" x="10" y="70" class="ff-Azonix text text-stroke" clip-path="url(#text3)">US</text>
-                    <text text-anchor="start" x="10" y="30" class="ff-Azonix text text-stroke text-stroke-2" clip-path="url(#text1)">LINK</text>
-                    <text text-anchor="start" x="10" y="50" class="ff-Azonix text text-stroke text-stroke-2" clip-path="url(#text2)">YOUR BUSINESS WITH</text>
-                    <text text-anchor="start" x="10" y="70" class="ff-Azonix text text-stroke text-stroke-2" clip-path="url(#text3)">US</text>
-                    <defs>
-                        <clipPath id="text1">
-                        <text text-anchor="start" x="10" y="30" class="ff-Azonix text">LINK</text>
-                        </clipPath>
-                        <clipPath id="text2">
-                        <text class="ff-Azonix text-white">Your Business With</text>
-                        </clipPath>
-                        <clipPath id="text3">
-                        <text text-anchor="start" x="10" y="70" class="ff-Azonix text">US</text>
-                        </clipPath>
-                    </defs>
-                </svg>
-    
-            
-                <!-- <div class="d-flex justify-content-between text-center align-items-center ">
-                    <h2 class="tag-line py-5 ff-Azonix text-white text-center">
-                        <span class="text-blue fs-6rem">LINK</span> YOUR
-                        <br>BUSINESS<br>
-                        WITH <span class="text-blue fs-6rem">US</span>
-                    </h2>  
-                </div>          -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                    <div class="neon-wrapper">
+                        <span class="txt ff-Azonix float-left">LINK</span>
+                        <span class="gradient"></span>
+                        <span class="dodge"></span>
+                    </div>
+                     <span class="tag-line your mx-5 ff-Azonix text-white">Your</span>
+                        <br>
+                            <span class="tag-line mx-2 ff-Azonix text-blue fs-6rem business">BUSINESS</span>
+                        <br>
+                    <span class="tag-line with mx-5 ff-Azonix text-white">With</span>
+                    <div class="neon-wrapper">
+                        <span class="txt-us ff-Azonix float-right ">US</span>
+                        <span class="gradient"></span>
+                        <span class="dodge"></span>
+                    </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">         
                 <div class="d-flex justify-content-between align-items-center shirt-tie">
@@ -72,9 +59,7 @@ include('header.php');
         <div class="s-sm-none">
             <br />
         </div>
-
         <div class="row">
-
             <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
                 <span>
                     <img src="./media/images/home-expertise-img1.png" alt="" class="our-expertise-icons">
@@ -83,8 +68,6 @@ include('header.php');
                     </p>
                 </span>
             </div>
-
-
             <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
                 <span><img src="./media/images/home-expertise-img2.png" alt="" class="our-expertise-icons">
                     <p class="h3 ff-raleway home-expertise-title mt-3">
@@ -92,7 +75,6 @@ include('header.php');
                     </p>
                 </span>
             </div>
-
             <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
                 <span><img src="./media/images/home-expertise-img3.png" alt="" class="our-expertise-icons">
                     <p class="h3 ff-raleway home-expertise-title mt-3">
@@ -100,7 +82,6 @@ include('header.php');
                     </p>
                 </span>
             </div>
-
             <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
                 <span><img src="./media/images/home-expertise-img4.png" alt="" class="our-expertise-icons">
                     <p class="h3 ff-raleway home-expertise-title mt-3">
@@ -108,7 +89,6 @@ include('header.php');
                     </p>
                 </span>
             </div>
-
             <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
                 <span> <img src="./media/images/home-expertise-img5.png" alt="" class="our-expertise-icons">
                     <p class="h3 ff-raleway home-expertise-title mt-3">
@@ -116,18 +96,17 @@ include('header.php');
                     </p>
                 </span>
             </div>
-
             <div class="col-sm-12 col-md-6 col-lg-4 text-center py-5 magic-border-container magic-border">
-                <span><img src="./media/images/home-expertise-img6.png" alt="" class="our-expertise-icons">
+                <span>
+                    <img src="./media/images/home-expertise-img6.png" alt="" class="our-expertise-icons">
                     <p class="h3 ff-raleway home-expertise-title mt-3">
                         Corporate Events
                     </p>
                 </span>
             </div>
-
         </div>
         <div class="text-center mt-4"> <button type="button"
-                class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Get a quote</button></div>
+            class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Get a quote</button></div>
     </div>
 </section>
 
@@ -156,7 +135,7 @@ include('header.php');
             </div>
             <div class="col-sm-12 col-lg-7">
 
-                <p class="h4p5 ff-raleway">LinkUs Is central India's Leading RPO & Digital Solution agency
+                <p class="h4p5 ff-raleway" data-scrollreveal="enter top over 1s after 0.1s" data-sr-init="true" data-sr-complete="true">LinkUs Is central India's Leading RPO & Digital Solution agency
                     empowering
                     clients with
                     variety of
@@ -166,7 +145,7 @@ include('header.php');
                     cost by our dedicated, scalable and customized recruitment process outsourcing & managed digital
                     solutions.
                 </p>
-                <p class="h4p5 ff-raleway">We oversee complex ability procurement programs through a consistent
+                <p class="h4p5 ff-raleway" data-scrollreveal="enter top over 1s after 0.1s" data-sr-init="true" data-sr-complete="true">We oversee complex ability procurement programs through a consistent
                     equilibrium of
                     predominant
                     innovation and demonstrated human expertise that provides an edge in todays cutthroat business
@@ -208,7 +187,7 @@ include('header.php');
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component px-3">
-                    <h2 class="ff-azonix">IDEA</h2>
+                    <h2 class="ff-azonix">CLIENT DISCUSSION</h2>
                     <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
                         laudantium ipsa ad debitis unde? Iste
@@ -240,7 +219,7 @@ include('header.php');
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component px-3">
-                    <h2 class="ff-azonix">Working</h2>
+                    <h2 class="ff-azonix">EXECUTION</h2>
                     <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
                         laudantium ipsa ad debitis unde? Iste
