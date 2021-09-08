@@ -145,8 +145,8 @@ section {
     max-height: 16rem;
 }
 
-#reach-us-out .form-control,
-#reach-us-out .form-select {
+#get-in-touch .form-control,
+#get-in-touch .form-select {
     border-bottom: 1px solid #00e2f9;
     border-top: 0;
     border-left: 0;

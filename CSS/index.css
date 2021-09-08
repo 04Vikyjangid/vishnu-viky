@@ -165,15 +165,15 @@
     }
 }
 
-h2,
+/* h2,
 p {
     animation-name: content;
     animation-duration: 800ms;
     animation-timing-function: ease-in;
     animation-delay: 1000ms;
-}
+} */
 
-@keyframes content {
+/* @keyframes content {
     0% {
         transform: scale(0);
     }
@@ -207,4 +207,4 @@ p {
     100% {
         transform: scale(1);
     }
-}
+} */
