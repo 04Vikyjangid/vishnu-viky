@@ -1,6 +1,8 @@
 <?php
 $pageTitle = 'About_Us';
 include('header.php');
+include('stickyform.php');
+
 ?>
 
 <section>
@@ -181,7 +183,6 @@ include('header.php');
     </div>
 </section>
 
-
 <section id="our-vision">
     <div class="container text-center mt-5">
         <div class="my-5 d-none d-md-block"></div>
@@ -204,7 +205,6 @@ include('header.php');
 
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-
             <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
             <img src="./media/images/home-grey-triangle-right.png" alt="home-grey-triangle-right"
                 class="right-grey-triangle">
@@ -221,10 +221,8 @@ include('header.php');
                 <img src="./media/images/about-img4.png" alt="about-img4" class="about-img4">
             </div>
 
-
             <div class="col-12 col-lg-6 pt-5">
                 <h3 class="h1 ff-azonix mb-5 ms-3">FAQs</h3>
-
                 <div class="accordion ff-raleway" id="aboutAccordion">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -299,7 +297,6 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-
 
             </div>
             <div class="col-12 col-lg-6 text-center d-none d-lg-block my-4">

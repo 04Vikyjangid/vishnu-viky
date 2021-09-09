@@ -1,6 +1,7 @@
 <?php
 $pageTitle = 'Our Services';
 include('header.php');
+include('stickyform.php');
 ?>
 
     <div class="service-multitex">

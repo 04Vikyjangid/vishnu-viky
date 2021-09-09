@@ -1,6 +1,8 @@
 <?php
 $pageTitle = 'Contact_Us';
 include('header.php');
+include('stickyform.php');
+
 ?>
 
 

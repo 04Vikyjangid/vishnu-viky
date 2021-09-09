@@ -10,26 +10,26 @@
                 </button>
                 <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav menu-li ff-raleway ">
-                        <li class="nav-item mx-2">
+                        <li class="nav-item mx-3">
                             <a class="nav-link <?php if($pageTitle=='Home'){echo 'active';}?>" aria-current="page" href="./index.php">HOME</a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item mx-3 ">
                             <a class="nav-link <?php if($pageTitle=='About_Us'){echo 'active';}?>" href="./about_us.php">ABOUT US</a>
                         </li>
-                        <li class="nav-item dropdown mx-2">
+                        <li class="nav-item dropdown mx-3">
                             <a class="nav-link dropdown-toggle <?php if($pageTitle=='Our Services'){echo 'active';}?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 SERVICES
                             </a>
-                            <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">RPO</a></li>
                                 <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Training & Placements</a></li>
                                 <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">SEO</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                             <a class="nav-link <?php if($pageTitle=='Contact_Us'){echo 'active';}?>" href="./contact_us.php">CONTACT US</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-3">
                             <a class="nav-link <?php if($pageTitle=='Login & Sign up'){echo 'active';}?>" href="./login.php"><i class="fa fa-user" aria-hidden="true"></i></a>
                         </li>
                     </ul>
