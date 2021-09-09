@@ -7,14 +7,11 @@ include('header.php');
     <section id="formHolder">
         <div class="row">
             <!-- Brand Box -->
-            <div class="col-sm-6 brand">
-                <div class="logo">
-                    <img src="./media/images/Linkus Logo.png" alt="logo">
-                </div>
+            <div class="col-md-6 brand">
 
-                <div class="heading">
-                    <h2 class="ff-azonix">Linkus Solutions</h2>
-                    <p class="ff-raleway">Fostering Horizons</p>
+
+                <div class="heading mx-auto">
+                    <h2 class="ff-azonix">Welcome</h2>
                 </div>
 
                 <div class="success-msg">
@@ -24,10 +21,14 @@ include('header.php');
             </div>
 
             <!-- Form Box -->
-            <div class="col-sm-6 form">
+            <div class="col-sm-6 form mx-auto">
                 <!-- Login Form -->
                 <div class="login form-peice switched">
+
                     <form class="login-form" action="#" method="post">
+
+                        <h2 class="ff-azonix text-dark">Login</h2>
+
                         <div class="form-group">
                             <label for="loginemail">Email Adderss</label>
                             <input type="email" name="loginemail" id="loginemail" required />
@@ -49,6 +50,9 @@ include('header.php');
                 <!-- Signup Form -->
                 <div class="signup form-peice">
                     <form class="signup-form" action="#" method="post">
+
+                        <h2 class="ff-azonix text-dark">Register</h2>
+
                         <div class="form-group">
                             <label for="name">Full Name</label>
                             <input type="text" name="username" id="name" class="name" />
