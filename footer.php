@@ -9,13 +9,16 @@
                 <div class="col-10">
                     <ul class="list-unstyled">
                         <li>
-                            <a class="text-white text-bold text-decoration-none h6" style="float:left;" href="mailto:Info@linkussolutions.com">Info@linkussolutions.com</a>
+                            <a class="text-white text-bold text-decoration-none h6" style="float:left;"
+                                href="mailto:Info@linkussolutions.com">Info@linkussolutions.com</a>
                         </li>
                         <li>
-                            <a class="text-white text-bold text-decoration-none h6" style="float:left;" href="mailto:Business@linkussolutions.com">Business@linkussolutions.com</a>
+                            <a class="text-white text-bold text-decoration-none h6" style="float:left;"
+                                href="mailto:Business@linkussolutions.com">Business@linkussolutions.com</a>
                         </li>
                         <li>
-                            <a class="text-white text-bold text-decoration-none h6" style="float:left;" href="mailto:Linkussolutions@gamil.com">Linkussolutions@gamil.com</a>
+                            <a class="text-white text-bold text-decoration-none h6" style="float:left;"
+                                href="mailto:Linkussolutions@gamil.com">Linkussolutions@gamil.com</a>
                         </li>
                     </ul>
                 </div>
@@ -80,7 +83,8 @@
             <h3 class="ff-Azonix text-blue my-1">SERVICES</h3>
             <ul class="list-unstyled ">
                 <li class="my-1">
-                    <a class="text-white text-decoration-none h6" href="/services.php">Recrutment Process Outsourcing</a>
+                    <a class="text-white text-decoration-none h6" href="/services.php">Recrutment Process
+                        Outsourcing</a>
                 </li>
                 <li class="my-1">
                     <a class="text-white text-decoration-none h6" href="/services.php">Digital Marketing Solutions</a>
@@ -107,10 +111,11 @@
 
 </body>
 <script src="./JS/bootstrap.bundle.min.js"></script>
+<script src="./JS/form.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src=
-    "https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js">
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js">
 </script>
 <script src="./JS/navbar.js"></script>
 <script src="./JS/script.js"></script>
+
 </html>
