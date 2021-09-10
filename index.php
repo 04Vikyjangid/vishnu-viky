@@ -290,21 +290,23 @@ include('stickyform.php');
 
 
                         <div class="form-check footer-radio-inline ms-2">
-                            <input class="form-check-input" type="radio" name="select1" id="select1" value="select1"
-                                checked>
+                            <input class="form-check-input" type="radio" name="index-footer-radio" id="select1"
+                                value="select1" checked>
                             <label class="form-check-label" for="select1">
                                 Select One
                             </label>
                         </div>
                         <div class="form-check footer-radio-inline">
-                            <input class="form-check-input" type="radio" name="select2" id="select2" value="select2">
+                            <input class="form-check-input" type="radio" name="index-footer-radio" id="select2"
+                                value="select2">
                             <label class="form-check-label" for="select2">
                                 Select Two
                             </label>
                         </div>
 
                         <div class="form-check footer-radio-inline">
-                            <input class="form-check-input" type="radio" name="select3" id="select3" value="select3">
+                            <input class="form-check-input" type="radio" name="index-footer-radio" id="select3"
+                                value="select3">
                             <label class="form-check-label" for="select3">
                                 Select Three
                             </label>
