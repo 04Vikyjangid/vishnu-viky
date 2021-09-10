@@ -145,11 +145,11 @@
 
 <div class="sticky-social-icons">
     <ul class="list-unstyled sul">
-        <li class="social-list"><a id="anchor" href="https://www.facebook.com/LinkUsSolutions"><i class="fab fa-facebook-f"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://www.instagram.com/LinkUsSolutions"><i class="fab fa-instagram"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://www.linkedin.com/Linkussolutions"><i class="fab fa-linkedin-in"></i></a></li>
-        <li class="social-list"><a id="anchor" href="#"><i class="fab fa-youtube"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://wa.me/+919343092938"><i class="fab fa-whatsapp"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.facebook.com/LinkUsSolutions" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.instagram.com/LinkUsSolutions" target="blank"><i class="fab fa-instagram"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.linkedin.com/Linkussolutions" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="social-list"><a id="anchor" href="#"><i class="fab fa-youtube" target="blank"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://wa.me/+919343092938" target="blank"><i class="fab fa-whatsapp"></i></a></li>
     </ul>
 </div>
 

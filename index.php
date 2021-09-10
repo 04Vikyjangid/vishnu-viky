@@ -263,8 +263,7 @@ include('stickyform.php');
         </p>
 
         <div class="row px-2">
-            <div class="offset-md-2 col-12 col-md-8">
-
+            <div class="offset-md-2 col-12 col-md-8" id="get-in-touch">
                 <form>
                     <div class="mb-3 text-start">
                         <label for="name-input" class="form-label ff-azonix">Name</label>

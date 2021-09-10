@@ -2,9 +2,7 @@
 $pageTitle = 'Contact_Us';
 include('header.php');
 include('stickyform.php');
-
 ?>
-
 
 <div class="container-fluid">
     <div class="row">
@@ -24,7 +22,6 @@ include('stickyform.php');
     </div>
 </div>
 <div class="container-fluid">
-
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h1 class="ff-Azonix p-5">GET IN TOUCH</h1>
