@@ -95,15 +95,24 @@
 
 @media (min-width: 87.5rem) {
   .cd-timeline__img {
-    width: calc(5rem + 0.7vw);
-    height: calc(5rem + 0.7vw);
+    width: calc(5rem + 2vw);
+    height: calc(5rem + 2vw);
     -ms-flex-order: 1;
     order: 1;
-    margin-left: calc(5% - 2.625rem);
+    margin-left: calc(5% - 3rem);
     will-change: transform;
   }
   .cd-timeline__block:nth-child(even) .cd-timeline__img {
-    margin-right: calc(5% - 2.625rem);
+    margin-right: calc(5% - 3rem);
+  }
+}
+
+@media (min-width: 98.25rem) {
+  .cd-timeline__img {
+    margin-left: calc(5% - 3.27rem);
+  }
+  .cd-timeline__block:nth-child(even) .cd-timeline__img {
+    margin-right: calc(5% - 3.13rem);
   }
 }
 
