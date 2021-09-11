@@ -4,7 +4,7 @@ include('header.php');
 include('stickyform.php');
 ?>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h1 class="ff-raleway fs-5rem mx-5 my-5 py-5">Available 24x7 <br>to serve best</h1>
@@ -162,7 +162,7 @@ include('stickyform.php');
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-que">
-            <img src="./media/images/contact-que.png" class="W-50  p-5justify-content-center">
+            <img src="./media/images/contact-que.png" class="W-50  p-5 justify-content-center">
         </div>
     </div>
 </div>
