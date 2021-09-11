@@ -154,21 +154,26 @@ include('stickyform.php');
             <div class="col-12 col-md-6">
                 <h3 class="h1 ff-azonix mx-5 mb-5">What we do?</h3>
 
-                <ul class="h5 w-75 ff-raleway d-none d-lg-block mx-5">
-                    <li class="">We create lifelong relationships with our clients.</li>
-                    <li class="">We Communicate on ideas & decide best for you.</li>
-                    <li class="">We discuss & plan goal driven ideas</li>
-                    <li class="">We create dynamic & creative strategies for your BRAND.</li>
-                    <li class="">We Focus on QUALITY based KPIs</li>
-                    <li class="">We uplift your BRAND with all possibilities among you competitors</li>
+
+            <div class="col-12 col-md-6 pt-5">
+                <h3 class="h1 ff-azonix mb-4 ms-1">What we do?</h3>
+
+                <ul class="h5 w-75 ff-raleway d-none d-lg-block">
+                    <li class="mt-2">We create lifelong relationships with our clients.</li>
+                    <li class="mt-2">We Communicate on ideas & decide best for you.</li>
+                    <li class="mt-2">We discuss & plan goal driven ideas</li>
+                    <li class="mt-2">We create dynamic & creative strategies for your BRAND.</li>
+                    <li class="mt-2">We Focus on QUALITY based KPIs</li>
+                    <li class="mt-2">We uplift your BRAND with all possibilities among you competitors</li>
+
                 </ul>
                 <ul class="h5 w-100 ff-raleway d-block d-lg-none" >
-                    <li class="">We create lifelong relationships with our clients.</li>
-                    <li class="">We Communicate on ideas & decide best for you.</li>
-                    <li class="">We discuss & plan goal driven ideas</li>
-                    <li class="">We create dynamic & creative strategies for your BRAND.</li>
-                    <li class="">We Focus on QUALITY based KPIs</li>
-                    <li class="">We uplift your BRAND with all possibilities among you competitors</li>
+                    <li class="mt-2">We create lifelong relationships with our clients.</li>
+                    <li class="mt-2">We Communicate on ideas & decide best for you.</li>
+                    <li class="mt-2">We discuss & plan goal driven ideas</li>
+                    <li class="mt-2">We create dynamic & creative strategies for your BRAND.</li>
+                    <li class="mt-2">We Focus on QUALITY based KPIs</li>
+                    <li class="mt-2">We uplift your BRAND with all possibilities among you competitors</li>
                 </ul>
 
             </div>
