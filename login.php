@@ -3,9 +3,9 @@ $pageTitle = 'Login & Sign up';
 include('header.php');
 ?>
 <script>
-if (localStorage.getItem('name')) {
-    window.location.replace("/");
-}
+    if (localStorage.getItem('name')) {
+        window.location.replace("/");
+    }
 </script>
 <div class="container">
     <section id="formHolder">
@@ -93,4 +93,4 @@ if (localStorage.getItem('name')) {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="./js/login.js"></script>
-<script src="./JS/form.js"></script>
+<script src="./js/form.js"></script>
