@@ -6,9 +6,12 @@ include('header.php');
 <div class="container">
     <section id="formHolder">
         <div class="row">
-            <div class="col-sm-6 brand bg-black">
-                <div class="heading">
-                    <h2 class="ff-azonix">WELCOME</h2>
+
+            <!-- Brand Box -->
+            <div class="col-md-6 brand">
+                <div class="heading mx-auto">
+                    <h2 class="ff-azonix">Welcome</h2>
+
                 </div>
                 <div class="success-msg">
                     <p>Great! You are one of our members now</p>
@@ -16,10 +19,14 @@ include('header.php');
                 </div>
             </div>
             <!-- Form Box -->
-            <div class="col-sm-6 form">
+            <div class="col-sm-6 form mx-auto">
                 <!-- Login Form -->
                 <div class="login form-peice switched">
+
                     <form class="login-form" action="#" method="post">
+
+                        <h2 class="ff-azonix text-dark">Login</h2>
+
                         <div class="form-group">
                             <label for="loginemail">Email Adderss</label>
                             <input type="email" name="loginemail" id="loginemail" required />
@@ -39,6 +46,9 @@ include('header.php');
                 <!-- Signup Form -->
                 <div class="signup form-peice">
                     <form class="signup-form" action="#" method="post">
+
+                        <h2 class="ff-azonix text-dark">Register</h2>
+
                         <div class="form-group">
                             <label for="name">Full Name</label>
                             <input type="text" name="username" id="name" class="name" />
