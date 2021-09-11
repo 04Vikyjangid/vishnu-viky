@@ -219,30 +219,31 @@
         <li class="my-1">
             <a href="https://www.facebook.com/LinkUsSolutions" target="blank" class="text-decoration-none"><img
                     src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon"
-                    class="mx-2 social-icon facebook m-1" style="width: 10px;"></a>
+                    class="mx-2 social-icon facebook m-1" style="width: 10px;background-color:#000;"></a>
         </li>
 
         <li class="my-1">
             <a href="https://www.instagram.com/LinkUsSolutions" target="blank" class="text-decoration-none"><img
                     src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
-                    class="mx-2 social-icon instagram m-1" style="width: 20px;">
+                    class="mx-2 social-icon instagram m-1" style="width: 20px;background-color:#000;">
             </a>
         </li>
 
         <li class="my-1">
             <a href="https://www.linkedin.com/Linkussolutions" target="blank" class="text-decoration-none"><img
                     src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
-                    class="mx-2 social-icon linkedin m-1" style="width: 20px;">
+                    class="mx-2 social-icon linkedin m-1" style="width: 20px;background-color:#000;">
             </a>
         </li>
         <li class="my-1">
             <a href="#" target="blank" class="text-decoration-none"><img src="./media/images/twitter-logo-4.png"
-                    alt="social icon" class="social-icon m-1 twitter mx-2" style="width: 20px;"></a>
+                    alt="social icon" class="social-icon m-1 twitter mx-2"
+                    style="width: 20px;background-color:#000;"></a>
         </li>
         <li class="my-1">
             <a href="https://wa.me/+919343092938" target="blank" class="text-decoration-none"><img
                     src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
-                    class="mx-2 social-icon whatsapp m-1" style="width: 20px;"></a>
+                    class="mx-2 social-icon whatsapp m-1" style="width: 20px;background-color:#000;"></a>
         </li>
 
     </ul>
