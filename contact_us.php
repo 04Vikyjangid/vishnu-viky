@@ -7,7 +7,7 @@ include('stickyform.php');
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h1 class="ff-raleway fs-5rem mx-5 my-5 py-5">AVAILABLE 24x7 <br>to serve best</h1>
+            <h1 class="ff-raleway fs-5rem mx-5 my-5 py-5">Available 24x7 <br>to serve best</h1>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-circle px-5">
             <img src="./media/images/contact-circle.png">
@@ -23,7 +23,7 @@ include('stickyform.php');
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="ff-Azonix p-5">GET IN TOUCH</h1>
+            <h1 class="ff-Azonix p-5 text-center">GET IN TOUCH</h1>
             <section id="get-in-touch" class="bg-black">
                 <div class="container text-center">
                     <div class="offset-md-2 col-12 col-md-8">
