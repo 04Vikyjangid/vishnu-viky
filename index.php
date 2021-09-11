@@ -50,11 +50,11 @@ include('stickyform.php');
         </p>
 
         <p class="text-center h4 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
-            Looking for full fledged RPO, Digital & IT Solutions ? LinkUs Have You Covered
+        Looking For Full Fledged RPO, Digital Marketing & IT Solutions ? LinkUs Have You Covered
         </p>
 
         <p class="text-center h5 mb-4 d-sm-block d-md-none ff-raleway text-capitalize">
-            Looking for full fledged RPO, Digital & IT Solutions ? LinkUs Have You Covered
+        Looking For Full Fledged RPO, Digital Marketing & IT Solutions ? LinkUs Have You Covered
         </p>
 
         <div class="s-sm-none">
@@ -135,26 +135,10 @@ include('stickyform.php');
             <div class="col-sm-12 col-lg-7">
 
                 <p class="h4p5 ff-raleway" data-scrollreveal="enter top over 1s after 0.1s" data-sr-init="true"
-                    data-sr-complete="true">LinkUs Is central India's Leading RPO & Digital Solution agency
-                    empowering
-                    clients with
-                    variety of
-                    services satisfying their business needs enabling options to step in to multiple domains &
-                    foster
-                    new horizons. LinkUs believe in delivering quality products & services, eliminating extra time &
-                    cost by our dedicated, scalable and customized recruitment process outsourcing & managed digital
-                    solutions.
+                    data-sr-complete="true">LinkUs Is central India's Leading RPO & Digital Solution agency empowering clients with variety of services satisfying their business needs enabling options to step in to multiple domains & foster new horizons. LinkUs believe in delivering quality products & services, eliminating extra time & cost by our dedicated, scalable and customized recruitment process outsourcing & managed digital solutions.
                 </p>
                 <p class="h4p5 ff-raleway" data-scrollreveal="enter top over 1s after 0.1s" data-sr-init="true"
-                    data-sr-complete="true">We oversee complex ability procurement programs through a consistent
-                    equilibrium of
-                    predominant
-                    innovation and demonstrated human expertise that provides an edge in todays cutthroat business
-                    world. Our recruiting teams act as more than a talent acquisition provider, they are client
-                    driven
-                    issue solvers with a straightforward methodology who go above, plan and work to make our
-                    connections
-                    lead in market.
+                    data-sr-complete="true">We oversee complex ability procurement programs through a consistent equilibrium of predominant innovation and demonstrated human expertise that provides an edge in todays cutthroat business world. Our recruiting teams act as more than a talent acquisition provider, they are client driven issue solvers with a straightforward methodology who go above, plan and work to make our connections lead in market.
                 </p>
 
 
@@ -189,10 +173,7 @@ include('stickyform.php');
 
                 <div class="cd-timeline__content text-component px-3">
                     <h2 class="ff-azonix">Idea</h2>
-                    <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
-                        laudantium ipsa ad debitis unde? Iste
-                        voluptatibus minus veritatis qui ut.</p>
+                    <p class="color-contrast-medium ff-philosopher h5">Linkus solutions belive in exploring new ideas for brands & businesses based on clients requirements, as creation is a part of cretivity, our team involve</p>
 
 
                 </div> <!-- cd-timeline__content -->
@@ -205,10 +186,7 @@ include('stickyform.php');
 
                 <div class="cd-timeline__content text-component px-3">
                     <h2 class="ff-azonix">Planning</h2>
-                    <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
-                        laudantium ipsa ad debitis unde? Iste
-                        voluptatibus minus veritatis qui ut.</p>
+                    <p class="color-contrast-medium ff-philosopher h5">Planning to accomplish creative ideas with top notch quality needs high profeciency & LinkUs step 1st in delivering this to our clients</p>
 
 
                 </div> <!-- cd-timeline__content -->
