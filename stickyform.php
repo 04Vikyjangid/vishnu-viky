@@ -1,7 +1,7 @@
 <div class="sticky-form">
     <ul class="list-unstyled">
         <li>
-            <button type="button" class="btn fob1" data-bs-toggle="modal" data-bs-target="#jobform">
+            <button type="button" class="btn fob1" data-bs-toggle="modal" data-bs-target="#jobform" title="Job">
                 J
             </button>
 
@@ -51,7 +51,8 @@
             </div>
         </li>
         <li class="my-3">
-            <button type="button" class="btn fob2" data-bs-toggle="modal" data-bs-target="#insternshipform">
+            <button type="button" class="btn fob2" data-bs-toggle="modal" data-bs-target="#insternshipform"
+                title="Internship">
                 I
             </button>
 
@@ -101,7 +102,8 @@
             </div>
         </li>
         <li>
-            <button type="button" class="btn fob3" data-bs-toggle="modal" data-bs-target="#collaborationform">
+            <button type="button" class="btn fob3" data-bs-toggle="modal" data-bs-target="#collaborationform"
+                title="Collaboration">
                 C
             </button>
             <div class="modal fade" id="collaborationform" data-bs-backdrop="static" data-bs-keyboard="false"
@@ -155,85 +157,88 @@
 <div class="sticky-social-icons">
     <ul class="list-unstyled sul">
 
-        <li class="social-list"><a id="anchor" href="https://www.facebook.com/LinkUsSolutions" target="blank"><i class="fab fa-facebook-f"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://www.instagram.com/LinkUsSolutions" target="blank"><i class="fab fa-instagram"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://www.linkedin.com/Linkussolutions" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.facebook.com/LinkUsSolutions" target="blank"><i
+                    class="fab fa-facebook-f"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.instagram.com/LinkUsSolutions" target="blank"><i
+                    class="fab fa-instagram"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.linkedin.com/Linkussolutions" target="blank"><i
+                    class="fab fa-linkedin-in"></i></a></li>
         <li class="social-list"><a id="anchor" href="#"><i class="fab fa-youtube" target="blank"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://wa.me/+919343092938" target="blank"><i class="fab fa-whatsapp"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://wa.me/+919343092938" target="blank"><i
+                    class="fab fa-whatsapp"></i></a></li>
 
     </ul>
 </div>
 
 <style>
+.fob1 {
+    position: fixed;
+    right: 0;
+    top: 345px;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    border-radius: 0;
+    width: 2.5%;
+}
 
-    .fob1 {
-        position: fixed;
-        right: 0;
-        top: 345px;
-        background-color: white;
-        color: black;
-        z-index: 1;
-        border-radius: 0;
-        width:2.5%;
-    }
+.fob2 {
+    position: fixed;
+    right: 0;
+    top: 385px;
+    width: 2.5%;
+    color: black;
+    background-color: white;
+    z-index: 1;
+    border-radius: 0;
+}
 
-    .fob2 {
-        position: fixed;
-        right: 0;
-        top: 385px;
-        width:2.5%;
-        color: black;
-        background-color: white;
-        z-index: 1;
-        border-radius: 0;
-    }
+.fob3 {
+    position: fixed;
+    right: 0;
+    top: 425px;
+    color: black;
+    background-color: white;
+    z-index: 1;
+    border-radius: 0;
+    width: 2.5%;
+}
 
-    .fob3 {
-        position: fixed;
-        right: 0;
-        top: 425px;
-        color: black;
-        background-color: white;
-        z-index: 1;
-        border-radius: 0;
-        width:2.5%;
-    }
+.fob1:hover {
+    border: white solid 2px;
+    width: 3%;
+    transition: 0.15s ease-in;
+    /* background-color: #00e2f9; */
+}
 
-    .fob1:hover {
-        border: white solid 2px;
-        width:3%;
-        transition: 0.15s ease-in;
-        /* background-color: #00e2f9; */
-    }
+.fob2:hover {
+    border: white solid 2px;
+    width: 3%;
+    transition: 0.15s ease-in;
+    /* background-color:#db135d; */
+}
 
-    .fob2:hover {
-        border: white solid 2px;
-        width:3%;
-        transition: 0.15s ease-in;
-        /* background-color:#db135d; */
-    }
+.fob3:hover {
+    border: white solid 2px;
+    width: 3%;
+    transition: 0.15s ease-in;
+    /* background-color: #00e2f9; */
+}
 
-    .fob3:hover {
-        border: white solid 2px;
-        width:3%;
-        transition: 0.15s ease-in;
-        /* background-color: #00e2f9; */
-    }
-
-    .sticky-social-icons {
-        position: fixed;
-        width: 50px;
-        margin-top: 20px;
-        transition: all 0.5s linear;
-        box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4);
-        z-index:1;
-    }
+.sticky-social-icons {
+    position: fixed;
+    width: 50px;
+    margin-top: 20px;
+    transition: all 0.5s linear;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4);
+    z-index: 1;
+}
 
 
-    .sticky-social-icons .social-list {
-        height: 50px;
-        position: relative;
-    }
+.sticky-social-icons .social-list {
+    height: 50px;
+    position: relative;
+}
 
 
 .sticky-social-icons .social-list #anchor {

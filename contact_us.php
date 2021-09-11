@@ -63,7 +63,8 @@ include('stickyform.php');
 </div>
 <div class="d-none d-md-block">
     <div class="d-flex justify-content-between align-items-center my-3">
-        <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left" class="home-our-expertise-triangle" style="    height: auto; max-height: 16rem;">
+        <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left"
+            class="home-our-expertise-triangle" style="    height: auto; max-height: 16rem;">
         <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
     </div>
 </div>
