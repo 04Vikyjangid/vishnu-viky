@@ -10,7 +10,7 @@ include('stickyform.php');
             <h1 class="ff-raleway fs-5rem mx-5 my-5 py-5">Available 24x7 <br>to serve best</h1>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-circle px-5">
-            <img src="./media/images/contact-circle.png">
+            <img src="./media/images/contact-circle.png" style="width:100%">
         </div>
     </div>
 </div>
@@ -182,7 +182,7 @@ include('stickyform.php');
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-que">
-            <img src="./media/images/contact-que.png" class="W-50  p-5 justify-content-center">
+            <img src="./media/images/contact-que.png" class="W-50  justify-content-center">
         </div>
     </div>
 </div>
