@@ -384,3 +384,13 @@ About
     width: 100%;
   }
 }
+
+.home-footer-form,
+.home-footer-form:focus {
+  border-bottom: 1px solid #00e2f9;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #000;
+  color: #a1a1a1;
+}
