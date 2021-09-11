@@ -28,7 +28,7 @@ include('stickyform.php');
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="d-flex justify-content-between align-items-center shirt-tie">
-                    <img src="./media/images/shirt-tie.png" alt="shirt-tie">
+                    <img src="./media/images/shirt-new-tie.png" alt="shirt-tie">
                 </div>
             </div>
         </div>
@@ -38,7 +38,8 @@ include('stickyform.php');
 
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left" class="home-our-expertise-triangle">
+            <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left"
+                class="home-our-expertise-triangle">
             <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
         </div>
     </div>
@@ -48,7 +49,7 @@ include('stickyform.php');
             Our Expertise
         </p>
 
-        <p class="text-center h5 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
+        <p class="text-center h4 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
             Looking for full fledged RPO, Digital & IT Solutions ? LinkUs Have You Covered
         </p>
 
@@ -105,7 +106,9 @@ include('stickyform.php');
                 </span>
             </div>
         </div>
-        <div class="text-center mt-4"> <button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Get a quote</button></div>
+
+        <div class="text-center mt-4"> <button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Explore Us</button></div>
+
     </div>
 </section>
 
@@ -134,7 +137,8 @@ include('stickyform.php');
             </div>
             <div class="col-sm-12 col-lg-7">
 
-                <p class="h4p5 ff-raleway" data-scrollreveal="enter top over 1s after 0.1s" data-sr-init="true" data-sr-complete="true">LinkUs Is central India's Leading RPO & Digital Solution agency
+                <p class="h4p5 ff-raleway" data-scrollreveal="enter top over 1s after 0.1s" data-sr-init="true"
+                    data-sr-complete="true">LinkUs Is central India's Leading RPO & Digital Solution agency
                     empowering
                     clients with
                     variety of
@@ -144,7 +148,8 @@ include('stickyform.php');
                     cost by our dedicated, scalable and customized recruitment process outsourcing & managed digital
                     solutions.
                 </p>
-                <p class="h4p5 ff-raleway" data-scrollreveal="enter top over 1s after 0.1s" data-sr-init="true" data-sr-complete="true">We oversee complex ability procurement programs through a consistent
+                <p class="h4p5 ff-raleway" data-scrollreveal="enter top over 1s after 0.1s" data-sr-init="true"
+                    data-sr-complete="true">We oversee complex ability procurement programs through a consistent
                     equilibrium of
                     predominant
                     innovation and demonstrated human expertise that provides an edge in todays cutthroat business
@@ -186,7 +191,7 @@ include('stickyform.php');
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component px-3">
-                    <h2 class="ff-azonix">CLIENT DISCUSSION</h2>
+                    <h2 class="ff-azonix">Idea</h2>
                     <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
                         laudantium ipsa ad debitis unde? Iste
@@ -218,7 +223,7 @@ include('stickyform.php');
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component px-3">
-                    <h2 class="ff-azonix">EXECUTION</h2>
+                    <h2 class="ff-azonix">Working</h2>
                     <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
                         laudantium ipsa ad debitis unde? Iste
@@ -263,8 +268,7 @@ include('stickyform.php');
         </p>
 
         <div class="row px-2">
-            <div class="offset-md-2 col-12 col-md-8">
-
+            <div class="offset-md-2 col-12 col-md-8" id="get-in-touch">
                 <form>
                     <div class="mb-3 text-start">
                         <label for="name-input" class="form-label ff-azonix">Name</label>
@@ -290,7 +294,8 @@ include('stickyform.php');
                         <label for="exampleInputPassword1" class="form-label ff-azonix">Description</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
+                    <button type="submit"
+                        class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
                 </form>
             </div>
         </div>
@@ -310,11 +315,18 @@ include('stickyform.php');
                 Our Digital Patner
             </p>
             <div class="d-flex justify-content-center">
-                <img src="media\images\home-digitalPatner-inchToMilez.png" alt="explore horizons banner" class="w-100 d-block d-md-none">
-                <img src="media\images\home-digitalPatner-inchToMilez.png" alt="explore horizons banner" class="w-35 d-none d-md-block">
+                <img src="media\images\home-digitalPatner-inchToMilez.png" alt="explore horizons banner"
+                    class="w-100 d-block d-md-none">
+                <img src="media\images\home-digitalPatner-inchToMilez.png" alt="explore horizons banner"
+                    class="w-35 d-none d-md-block">
             </div>
         </div>
-        <div id="social" class="mt-5">
+    </div>
+    <div class="d-flex justify-content-start my-5 ">
+        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
+    </div>
+    <div class="container text-center">
+        <div id="social" class="my-5">
             <div class="row">
                 <div class="col-12">
                     <spam class="ff-Azonix primary-blue display-1">Link</spam>
@@ -324,16 +336,22 @@ include('stickyform.php');
             </div>
             <div class="row">
                 <div class="col-12">
-                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon" class="social-icon m-1">
-                    <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon" class="social-icon m-1">
-                    <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon" class="social-icon m-1">
-                    <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon" class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
+                        class="social-icon m-1">
                 </div>
             </div>
         </div>
-
     </div>
 </section>
+<div class="d-flex justify-content-end ">
+    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
+</div>
 
 <?php
 include('footer.php');

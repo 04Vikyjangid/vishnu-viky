@@ -10,10 +10,10 @@
     <?php if($pageTitle == 'Login & Sign up'){echo '<link rel="stylesheet" type="text/css" href="./CSS/login.css" />';} ?>
     <?php if($pageTitle == 'Home'){echo '<link rel="stylesheet" type="text/css" href="./CSS/timeline.css" />\n';} ?>
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="./CSS/service.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
 </head>
-
-
 
 <body>
     <?php 

@@ -6,20 +6,18 @@ include('header.php');
 <div class="container">
     <section id="formHolder">
         <div class="row">
+
             <!-- Brand Box -->
             <div class="col-md-6 brand">
-
-
                 <div class="heading mx-auto">
                     <h2 class="ff-azonix">Welcome</h2>
-                </div>
 
+                </div>
                 <div class="success-msg">
                     <p>Great! You are one of our members now</p>
                     <a href="#" class="profile">Your Profile</a>
                 </div>
             </div>
-
             <!-- Form Box -->
             <div class="col-sm-6 form mx-auto">
                 <!-- Login Form -->
@@ -33,12 +31,10 @@ include('header.php');
                             <label for="loginemail">Email Adderss</label>
                             <input type="email" name="loginemail" id="loginemail" required />
                         </div>
-
                         <div class="form-group">
                             <label for="loginPassword">Password</label>
                             <input type="password" name="loginPassword" id="loginPassword" required />
                         </div>
-
                         <div class="CTA">
                             <input type="submit" value="Login" />
                             <a href="#" class="switch">I'm New</a>
