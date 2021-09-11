@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $form = 'Form Submittion';
         }
 
-        $to = 'aadityajain.dev@gmail.com';
+        $to = 'info@linkussolutions.com';
         $subject = $form;
         $message = "Name: " . $formName . "\n" . "email: " . $formEmail . "\n" . "Number: " . $formContact . "\n" . "Description: " . "\n" . $formDesc . "\n" . "Select: " . $formselect . "\n\n";
         $headers = "From: forms@linkussolutions.com";
