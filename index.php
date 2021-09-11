@@ -9,7 +9,7 @@ include('stickyform.php');
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center px-2">
                 <div class="neon-wrapper">
                     <span class="txt ff-Azonix float-left">LINK</span>
                     <span class="gradient"></span>
@@ -27,15 +27,14 @@ include('stickyform.php');
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="d-flex justify-content-between align-items-center shirt-tie">
-                    <img src="./media/images/shirt-new-tie.png" alt="shirt-tie">
+                <div class="d-flex justify-content-center align-items-center shirt-tie">
+                    <img src="./media/images/shirt-new-tie.png" alt="shirt-tie" style="  height: 363px !important; width: 50% !important;">
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section id="our-expertise" class="bg-black">
-
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
             <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left"
@@ -45,7 +44,7 @@ include('stickyform.php');
     </div>
 
     <div class="container">
-        <p class="text-center h1 my-5 ff-azonix fs-5rem">
+        <p class="text-center h1 mb-5 ff-azonix fs-5rem">
             Our Expertise
         </p>
 
@@ -122,8 +121,6 @@ include('stickyform.php');
         </div>
     </div>
 
-
-
     <div class="container">
 
         <p class="text-center h1 my-5 ff-Azonix fs-5rem">
@@ -132,8 +129,6 @@ include('stickyform.php');
         <div class="row">
             <div class="col-sm-12 col-lg-5 text-center mb-4">
                 <img src="media\images\home-explore-img1.png" alt="explore horizons banner" class="img-mw380">
-
-
             </div>
             <div class="col-sm-12 col-lg-7">
 
@@ -350,9 +345,12 @@ include('stickyform.php');
             </div>
         </div>
     </div>
+    <div class="text-center mt-4"> <a class="text-decoration-none" href="./contact_us.php"><button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Talk to an Expert</button></a></div>
+
     <div class="d-flex justify-content-start my-5 ">
         <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
     </div>
+
     <div class="container text-center">
         <div id="social" class="my-5">
             <div class="row">
@@ -364,14 +362,17 @@ include('stickyform.php');
             </div>
             <div class="row">
                 <div class="col-12">
-                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
-                        class="social-icon m-1">
+                    
                     <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon"
-                        class="social-icon m-1">
-                    <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
                         class="social-icon m-1">
                     <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
                         class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/twitter-logo-4.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
+                    class="social-icon m-1">
                 </div>
             </div>
         </div>
