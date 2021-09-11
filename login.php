@@ -2,7 +2,11 @@
 $pageTitle = 'Login & Sign up';
 include('header.php');
 ?>
-
+<script>
+if (localStorage.getItem('name')) {
+    window.location.replace("/");
+}
+</script>
 <div class="container">
     <section id="formHolder">
         <div class="row">
@@ -28,6 +32,7 @@ include('header.php');
                 <!-- Login Form -->
                 <div class="login form-peice switched">
                     <form class="login-form" onsubmit="userData(event, 'login')">
+                        <div id="login-msg"></div>
                         <div class="form-group">
                             <label for="loginemail">Email Adderss</label>
                             <input type="email" name="loginemail" id="loginemail" required />
@@ -49,6 +54,7 @@ include('header.php');
                 <!-- Signup Form -->
                 <div class="signup form-peice">
                     <form class="signup-form" onsubmit="userData(event, 'register')">
+                        <div id="signup-msg"></div>
                         <div class="form-group">
                             <label for="name">Full Name</label>
                             <input type="text" name="username" id="name" class="name" />
