@@ -6,20 +6,18 @@ include('stickyform.php');
 
 
 <div class="container">
-    <div class="service-multitex">
-        <div class="static-txt">WE PROVIDE </div>
-        <ul class="dynamic-txts">
-            <li><span>RPO</span></li>
-            <li><span>DIGITAL SOLUTIONS</span></li>
-            <li><span>IT SOLUTIONS</span></li>
-            <li><span>EVENT MANAGEMENT</span></li>
-            <li><span>TRAINING & DEVELOPMENT</span></li>
-        </ul>
+    <div class="text-animation py-5 my-5 mx-4">
+        <div class="service-multitex">
+            <div class="static-txt">WE PROVIDE </div>
+            <ul class="dynamic-txts">
+                <li><span>RPO</span></li>
+                <li><span>DIGITAL SOLUTIONS</span></li>
+                <li><span>IT SOLUTIONS</span></li>
+                <li><span>EVENT MANAGEMENT</span></li>
+                <li><span>TRAINING & DEVELOPMENT</span></li>
+            </ul>
+        </div>
     </div>
-</div>
-
-
-<div class="container">
     <section class="service-tab">
         <nav class="my-5 ">
             <div class="nav nav-tabs " id="nav-tab" role="tablist">

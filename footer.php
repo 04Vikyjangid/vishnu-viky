@@ -1,7 +1,7 @@
 <footer class="container-fluid my-5">
     <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-white">
-            <h3 class="ff-Azonix footer-heading mx-5 px-4 text-blue" style="text-align: left; margin-left:45px;">CONTACT US</h3>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 px-5 text-white">
+            <h4 class="ff-Azonix footer-heading text-blue" style="text-align: left; margin-left:50px;">CONTACT US</h3>
             <div class="row my-1">
                 <div class="col-2">
                     <i class="fa fa-envelope h2 px-3 text-blue" aria-hidden="true"></i>
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-white">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 px-5 text-white">
             <h3 class="ff-Azonix text-blue float-right my-1 footer-heading" style="text-align: left;">Quick Links</h3>
             <ul class="list-unstyled footer-ul">
                 <li class="my-1" style="text-align: left;">
@@ -59,7 +59,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <h3 class="ff-Azonix text-blue my-1 footer-heading" style="text-align: left;margin-left:27px;">SOCIAL</h3>
             <ul class="list-unstyled footer-ul" style="text-align: left;">
                 <li class="my-1">
@@ -80,7 +80,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 px-5">
             <h3 class="ff-Azonix text-blue my-1 footer-heading" style="text-align: left;">SERVICES</h3>
             <ul class="list-unstyled footer-ul" style="text-align: left;">
                 <li class="my-1">
@@ -105,7 +105,7 @@
         </div>
     </div>
     <div class="row my-5 text-center">
-        <h3>Copyright @ 2021 - All rights reserved by LinkUs Solutions</h3>
+        <h5>Copyright @ 2021 - All rights reserved by LinkUs Solutions</h5>
     </div>
 </footer>
 </body>

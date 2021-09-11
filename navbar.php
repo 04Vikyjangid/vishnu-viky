@@ -22,8 +22,11 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">RPO</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Training & Placements</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">SEO</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Digital Marketing</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Training & Development</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Payroll Handeling</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Couselling</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Corporate Events</a></li>
                             </ul>
                         </li>
                         <li class="nav-item mx-3">

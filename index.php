@@ -48,7 +48,7 @@ include('stickyform.php');
             Our Expertise
         </p>
 
-        <p class="text-center h5 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
+        <p class="text-center h4 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
             Looking for full fledged RPO, Digital & IT Solutions ? LinkUs Have You Covered
         </p>
 
@@ -315,7 +315,7 @@ include('stickyform.php');
         </div>
     </div>
     <div class="d-flex justify-content-start my-5 ">
-        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50"/>
+        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
     </div>
     <div class="container text-center">
         <div id="social" class="my-5">
@@ -338,7 +338,7 @@ include('stickyform.php');
     </div>
 </section>
 <div class="d-flex justify-content-end ">
-    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50"/>
+    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
 </div>
 
 <?php

@@ -7,11 +7,10 @@ include('stickyform.php');
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h1 class="ff-raleway p-5">AVAILABLE 24x7 <br>to serve best</h1>
+            <h1 class="ff-raleway fs-5rem mx-5 my-5 py-5">AVAILABLE 24x7 <br>to serve best</h1>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h1 class="ff-raleway p-5">Circle Image</h1>
-
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-circle px-5">
+            <img src="./media/images/contact-circle.png">
         </div>
     </div>
 </div>
@@ -21,9 +20,9 @@ include('stickyform.php');
         <img src="./media/images/home-pink-triangle-right.png" id="pink-triangle" alt="pink-triangle" />
     </div>
 </div>
-<div class="container-fluid">
+<div class="container">
     <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1 class="ff-Azonix p-5">GET IN TOUCH</h1>
             <section id="get-in-touch" class="bg-black">
                 <div class="container text-center">
@@ -59,6 +58,16 @@ include('stickyform.php');
                 </div>
             </section>
         </div>
+    </div>
+</div>
+<div class="d-none d-md-block">
+    <div class="d-flex justify-content-between align-items-center my-3">
+        <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left" class="home-our-expertise-triangle" style="    height: auto; max-height: 16rem;">
+        <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
+    </div>
+</div>
+<div class="container">
+    <div class="row my-5">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <section id="about-faqs" class="mt-4">
                 <div class="col-12 col-lg-12 pt-5">
@@ -130,54 +139,39 @@ include('stickyform.php');
                         </div>
                     </div>
                 </div>
-    </section>
-</div>
-</div>
+            </section>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-que">
+            <img src="./media/images/contact-que.png" class="W-50  p-5justify-content-center">
+        </div>
+    </div>
 </div>
 <div class="d-flex justify-content-start my-5 ">
-        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50"/>
-    </div>
-    <div class="container text-center">
-        <div id="social" class="my-5">
-            <div class="row">
-                <div class="col-12">
-                    <spam class="ff-Azonix primary-blue display-1">Link</spam>
-                    <spam class="ff-Azonix primary-pink display-2">With</spam>
-                    <spam class="ff-Azonix primary-blue display-1">Us</spam>
-                </div>
+    <img src="./media/images/home-digitalPatner-line.png" alt="pink-triangle" class="W-50" />
+</div>
+<div class="container text-center">
+    <div id="social" class="my-5">
+        <div class="row">
+            <div class="col-12">
+                <spam class="ff-Azonix primary-blue display-1">Link</spam>
+                <spam class="ff-Azonix primary-pink display-2">With</spam>
+                <spam class="ff-Azonix primary-blue display-1">Us</spam>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon" class="social-icon m-1">
-                    <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon" class="social-icon m-1">
-                    <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon" class="social-icon m-1">
-                    <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon" class="social-icon m-1">
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon" class="social-icon m-1">
+                <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon" class="social-icon m-1">
+                <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon" class="social-icon m-1">
+                <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon" class="social-icon m-1">
             </div>
         </div>
     </div>
+</div>
 </section>
 <div class="d-flex justify-content-end ">
-    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50"/>
+    <img src="./media/images/home-digitalPatner-line.png" alt="pink-triangle" class="W-50 my-5" />
 </div>
-
-<!-- <div class="container text-center my-5">
-    <div class="neon-wrapper">
-        <span class="txt ff-Azonix float-left">LINK</span>
-        <span class="gradient"></span>
-        <span class="dodge"></span>
-    </div>
-    <span class="tag-line your mx-5 ff-Azonix text-white">Your</span>
-    <br>
-    <span class="tag-line mx-2 ff-Azonix text-blue fs-6rem business">BUSINESS</span>
-    <br>
-    <span class="tag-line with mx-5 ff-Azonix text-white">With</span>
-    <div class="neon-wrapper">
-        <span class="txt-us ff-Azonix float-right ">US</span>
-        <span class="gradient"></span>
-        <span class="dodge"></span>
-    </div>
-</div> -->
 
 <?php
 include('footer.php');
