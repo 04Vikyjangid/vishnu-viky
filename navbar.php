@@ -12,37 +12,55 @@
                 <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav menu-li ff-raleway ">
                         <li class="nav-item mx-3">
-                            <a class="nav-link <?php if($pageTitle=='Home'){echo 'active';}?>" aria-current="page"
-                                href="./index.php">HOME</a>
+                            <a class="nav-link <?php if ($pageTitle == 'Home') {
+                                                    echo 'active';
+                                                } ?>" aria-current="page" href="./index.php">HOME</a>
                         </li>
                         <li class="nav-item mx-3 ">
-                            <a class="nav-link <?php if($pageTitle=='About_Us'){echo 'active';}?>"
-                                href="./about_us.php">ABOUT US</a>
+                            <a class="nav-link <?php if ($pageTitle == 'About_Us') {
+                                                    echo 'active';
+                                                } ?>" href="./about_us.php">ABOUT US</a>
                         </li>
                         <li class="nav-item dropdown mx-3">
-                            <a class="nav-link dropdown-toggle <?php if($pageTitle=='Our Services'){echo 'active';}?>"
-                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle <?php if ($pageTitle == 'Our Services') {
+                                                                    echo 'active';
+                                                                } ?>" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 SERVICES
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
 
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">RPO</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Digital Marketing</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Training & Development</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Payroll Handeling</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Couselling</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Corporate Events</a></li>
+                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
+                                                                echo 'active';
+                                                            } ?>" href="./services.php">RPO</a></li>
+                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
+                                                                echo 'active';
+                                                            } ?>" href="./services.php">Digital Marketing</a></li>
+                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
+                                                                echo 'active';
+                                                            } ?>" href="./services.php">Training & Development</a></li>
+                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
+                                                                echo 'active';
+                                                            } ?>" href="./services.php">Payroll Handeling</a></li>
+                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
+                                                                echo 'active';
+                                                            } ?>" href="./services.php">Couselling</a></li>
+                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
+                                                                echo 'active';
+                                                            } ?>" href="./services.php">Corporate Events</a></li>
 
                             </ul>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link <?php if($pageTitle=='Contact_Us'){echo 'active';}?>"
-                                href="./contact_us.php">CONTACT US</a>
+                            <a class="nav-link <?php if ($pageTitle == 'Contact_Us') {
+                                                    echo 'active';
+                                                } ?>" href="./contact_us.php">CONTACT US</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link <?php if($pageTitle=='Login & Sign up'){echo 'active';}?>"
-                                href="./login.php"><i class="fa fa-user" aria-hidden="true"></i>
+                            <a class="nav-link <?php if ($pageTitle == 'Login & Sign up') {
+                                                    echo 'active';
+                                                } ?>" href="./login.php"><i class="fa fa-user" aria-hidden="true"></i>
                                 <script>
                                 if (localStorage.getItem('name')) {
                                     document.write('<span class="ms-2">' + localStorage.getItem('name') + '</span>');

@@ -291,9 +291,6 @@ include('stickyform.php');
 
                         <label for="radio-input" class="form-label ff-azonix w-radio-100">Select</label>
 
-
-
-
                         <div class="form-check footer-radio-inline ms-2">
                             <input class="form-check-input" type="radio" name="index-footer-radio" id="select1"
                                 value="select1" checked>
