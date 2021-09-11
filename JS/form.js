@@ -56,7 +56,8 @@ function sendData(e, form) {
 
     // Define what happens on successful data submission
     XHR.addEventListener("load", function (event) {
-      alert("Yeah! Data sent and response loaded.");
+      alert("Form Submitted");
+      $("form").trigger("reset");
     });
 
     // Define what happens in case of error
@@ -137,7 +138,52 @@ function userData(e, form) {
 
     // Define what happens on successful data submission
     XHR.addEventListener("load", function (event) {
-      alert("Yeah! Data sent and response loaded.");
+      const response = JSON.parse(XHR.response);
+      if (response.status === "fail") {
+        if (form === "register") {
+          const container = document.getElementById("signup-msg");
+          container.innerHTML =
+            "<div class='alert alert-danger' role='alert'> " +
+            response.message +
+            " </div>";
+          $("#signup-msg").fadeOut(2000, function () {
+            container.innerHTML = "";
+          });
+        } else {
+          const container = document.getElementById("login-msg");
+          container.innerHTML =
+            "<div class='alert alert-danger' role='alert'> " +
+            response.message +
+            "  </div>";
+          $("#login-msg").fadeOut(2000, function () {
+            container.innerHTML = "";
+          });
+        }
+      } else {
+        if (form === "register") {
+          const container = document.getElementById("signup-msg");
+          container.innerHTML =
+            "<div class='alert alert-success' role='alert'> " +
+            response.message +
+            " </div>";
+          $("#signup-msg").fadeOut(2000, function () {
+            container.innerHTML = "";
+          });
+          $("form.signup-form").trigger("reset");
+        } else {
+          const container = document.getElementById("login-msg");
+          container.innerHTML =
+            "<div class='alert alert-success' role='alert'> " +
+            response.message +
+            " </div>";
+          $("form.login-form").trigger("reset");
+          localStorage.setItem("name", response.name);
+          $("#login-msg").fadeOut(2000, function () {
+            container.innerHTML = "";
+            window.location.replace("/");
+          });
+        }
+      }
     });
 
     // Define what happens in case of error
