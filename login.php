@@ -3,9 +3,9 @@ $pageTitle = 'Login & Sign up';
 include('header.php');
 ?>
 <script>
-    if (localStorage.getItem('name')) {
-        window.location.replace("/");
-    }
+if (localStorage.getItem('name')) {
+    window.location.replace("/");
+}
 </script>
 <div class="container">
     <section id="formHolder">
@@ -14,7 +14,7 @@ include('header.php');
             <!-- Brand Box -->
             <div class="col-md-6 brand">
                 <div class="heading mx-auto">
-                    <h2 class="ff-azonix">Welcome</h2>
+                    <h2 class="ff-azonix">Welcome to Linkus</h2>
                 </div>
             </div>
             <!-- Form Box -->
@@ -38,7 +38,8 @@ include('header.php');
                             <input type="password" name="loginPassword" id="loginPassword" required />
                         </div>
                         <div class="CTA">
-                            <input type="submit" value="Login" />
+                            <input type="submit" value="Login"
+                                class="btn btn-outline-dark btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase" />
                             <a href="#" class="switch">I'm New</a>
                         </div>
                     </form>
@@ -80,7 +81,8 @@ include('header.php');
                         </div>
 
                         <div class="CTA">
-                            <input type="submit" value="Signup Now" id="submit" />
+                            <input type="submit" value="Signup Now" id="submit"
+                                class="btn btn-outline-dark btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase" />
                             <a href="#" class="switch">I have an account</a>
                         </div>
                     </form>
