@@ -399,6 +399,11 @@ About
   margin-top: 82px;
 }
 
+
+.container.text-center #social .social-icon {
+  height: calc(1.5rem + 0.4vw);
+}
+
 #nav-tab .nav-link.active {
   color: #14e9ff;
 }
