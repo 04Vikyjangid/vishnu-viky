@@ -145,11 +145,11 @@
 
 <div class="sticky-social-icons">
     <ul class="list-unstyled sul">
-        <li class="social-list"><a id="anchor" href="https://www.facebook.com/LinkUsSolutions"><i class="fab fa-facebook-f"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://www.instagram.com/LinkUsSolutions"><i class="fab fa-instagram"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://www.linkedin.com/Linkussolutions"><i class="fab fa-linkedin-in"></i></a></li>
-        <li class="social-list"><a id="anchor" href="#"><i class="fab fa-youtube"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://wa.me/+919343092938"><i class="fab fa-whatsapp"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.facebook.com/LinkUsSolutions" target="blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.instagram.com/LinkUsSolutions" target="blank"><i class="fab fa-instagram"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://www.linkedin.com/Linkussolutions" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="social-list"><a id="anchor" href="#"><i class="fab fa-youtube" target="blank"></i></a></li>
+        <li class="social-list"><a id="anchor" href="https://wa.me/+919343092938" target="blank"><i class="fab fa-whatsapp"></i></a></li>
     </ul>
 </div>
 
@@ -157,52 +157,66 @@
     .fob1 {
         position: fixed;
         right: 0;
-        top: 350px;
-        background-color: black;
-        color: white;
+        top: 345px;
+        background-color: white;
+        color: black;
         z-index: 1;
+        border-radius: 0;
+        width:2.5%;
     }
 
     .fob2 {
         position: fixed;
         right: 0;
-        top: 400px;
-        color: white;
-        background-color: black;
+        top: 385px;
+        width:2.5%;
+        color: black;
+        background-color: white;
         z-index: 1;
+        border-radius: 0;
     }
 
     .fob3 {
         position: fixed;
         right: 0;
-        top: 450px;
-        color: white;
-        background-color: black;
+        top: 425px;
+        color: black;
+        background-color: white;
         z-index: 1;
+        border-radius: 0;
+        width:2.5%;
     }
 
     .fob1:hover {
         border: white solid 2px;
-        color: #14e9ff;
+        width:3%;
+        transition: 0.15s ease-in;
+        /* background-color: #00e2f9; */
     }
 
     .fob2:hover {
         border: white solid 2px;
-        color: #14e9ff;
+        width:3%;
+        transition: 0.15s ease-in;
+        /* background-color:#db135d; */
     }
 
     .fob3:hover {
         border: white solid 2px;
-        color: #14e9ff;
+        width:3%;
+        transition: 0.15s ease-in;
+        /* background-color: #00e2f9; */
     }
 
     .sticky-social-icons {
         position: fixed;
-        width: 60px;
+        width: 50px;
         margin-top: 20px;
         transition: all 0.5s linear;
         box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4);
+        z-index:1;
     }
+
 
     .sticky-social-icons .social-list {
         height: 50px;
