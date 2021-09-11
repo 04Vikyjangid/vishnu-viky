@@ -2,50 +2,50 @@
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 px-5 text-white">
             <h4 class="ff-Azonix footer-heading text-blue" style="text-align: left; margin-left:15px;">CONTACT US</h3>
-            <div class="row my-1">
-                <div class="col-2">
-                    <i class="fa fa-envelope h4 px-3 text-blue" aria-hidden="true"></i>
-                </div>
-                <div class="col-10">
-                    <ul class="list-unstyled footer-ul" style="margin-left:8px;">
-                        <li>
-                            <a class="text-white text-bold text-decoration-none h6" style="float:left;"
-                                href="mailto:Info@linkussolutions.com">Info@linkussolutions.com</a>
-                        </li>
-                        <li>
-                            <a class="text-white text-bold text-decoration-none h6" style="float:left;"
-                                href="mailto:Business@linkussolutions.com">Business@linkussolutions.com</a>
-                        </li>
-                        <li>
-                            <a class="text-white text-bold text-decoration-none h6" style="float:left;"
-                                href="mailto:Linkussolutions@gamil.com">Linkussolutions@gamil.com</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row  my-1">
-                <div class="col-2">
-                    <i class="fa fa-phone-alt text-blue h4 px-3" aria-hidden="true"></i>
-                </div>
-                <div class="col-10">
-                    <ul class="list-unstyled footer-ul">
-                        <li class="text-white text-bold h6" style="float:left;">+91-9755953257<br>+91-8349196404<br></li>
-                 
-                    </ul>
-                </div>
-            </div>
-            <div class="row my-1">
-                <div class="col-2">
-                    <i class="fa fa-map-marker text-blue h4 px-3" aria-hidden="true"></i>
-                </div>
                 <div class="row my-1">
                     <div class="col-2">
-                        <i class="fa fa-map-marker text-blue h2 px-3" aria-hidden="true"></i>
+                        <i class="fa fa-envelope h4 px-3 text-blue" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-10">
+                        <ul class="list-unstyled footer-ul" style="margin-left:8px;">
+                            <li>
+                                <a class="text-white text-bold text-decoration-none h6" style="float:left;"
+                                    href="mailto:Info@linkussolutions.com">Info@linkussolutions.com</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-bold text-decoration-none h6" style="float:left;"
+                                    href="mailto:Business@linkussolutions.com">Business@linkussolutions.com</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-bold text-decoration-none h6" style="float:left;"
+                                    href="mailto:Linkussolutions@gamil.com">Linkussolutions@gamil.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row  my-1">
+                    <div class="col-2">
+                        <i class="fa fa-phone-alt text-blue h4 px-3" aria-hidden="true"></i>
                     </div>
                     <div class="col-10">
                         <ul class="list-unstyled footer-ul">
-                            <li class="text-white text-bold" style="float: left;">Indore, Madhya Pradesh - INDIA</li>
+                            <li class="text-white text-bold h6" style="float:left;">+91-9755953257<br>+91-8349196404<br>
+                            </li>
+
                         </ul>
+                    </div>
+                </div>
+                <div class="row my-1">
+                    <div class="row my-1">
+                        <div class="col-2">
+                            <i class="fa fa-map-marker text-blue h2 px-3" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10">
+                            <ul class="list-unstyled footer-ul">
+                                <li class="text-white text-bold" style="float: left;">Indore, Madhya Pradesh - INDIA
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
         </div>
@@ -69,24 +69,37 @@
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <h3 class="ff-Azonix text-blue my-1 footer-heading" style="text-align: left;">SOCIAL</h3>
             <ul class="list-unstyled footer-ul" style="text-align: left;">
-                 <li class="my-1">
-                 <a href="https://www.facebook.com/LinkUsSolutions" target="blank" class="text-decoration-none text-white"><img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon" class="social-icon m-1" style="width: 10px;"> &nbsp;&nbsp;Facebook</a>
-                </li>    
+                <li class="my-1">
+                    <a href="https://www.facebook.com/LinkUsSolutions" target="blank"
+                        class="text-decoration-none text-white"><img
+                            src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon"
+                            class="social-icon m-1" style="width: 10px;"> &nbsp;&nbsp;Facebook</a>
+                </li>
                 <li class="my-1">
 
-                  <a href="https://www.instagram.com/LinkUsSolutions" target="blank" class="text-decoration-none text-white"><img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon" class="social-icon m-1" style="width: 20px;">
-                    Instagram</a>
+                    <a href="https://www.instagram.com/LinkUsSolutions" target="blank"
+                        class="text-decoration-none text-white"><img
+                            src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
+                            class="social-icon m-1" style="width: 20px;">
+                        Instagram</a>
                 </li>
-               
+
                 <li class="my-1">
-               <a href="https://www.linkedin.com/Linkussolutions" target="blank" class="text-decoration-none text-white"><img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon" class="social-icon m-1" style="width: 20px;">
-                   Linkedin</a>
+                    <a href="https://www.linkedin.com/Linkussolutions" target="blank"
+                        class="text-decoration-none text-white"><img
+                            src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
+                            class="social-icon m-1" style="width: 20px;">
+                        Linkedin</a>
                 </li>
                 <li class="my-1">
-                <a  href="#" target="blank" class="text-decoration-none text-white"><img src="./media/images/twitter-logo-4.png" alt="social icon" class="social-icon m-1" style="width: 20px;">&nbsp;Twitter</a>
+                    <a href="#" target="blank" class="text-decoration-none text-white"><img
+                            src="./media/images/twitter-logo-4.png" alt="social icon" class="social-icon m-1"
+                            style="width: 20px;">&nbsp;Twitter</a>
                 </li>
                 <li class="my-1">
-                <a  href="https://wa.me/+919343092938" target="blank" class="text-decoration-none text-white"><img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon" class="social-icon m-1" style="width: 20px;">&nbsp;&nbsp;Whatsapp</a>
+                    <a href="https://wa.me/+919343092938" target="blank" class="text-decoration-none text-white"><img
+                            src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
+                            class="social-icon m-1" style="width: 20px;">&nbsp;&nbsp;Whatsapp</a>
                 </li>
             </ul>
         </div>

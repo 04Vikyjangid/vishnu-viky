@@ -151,8 +151,8 @@ include('stickyform.php');
                 <img src="./media/images/about-img3.png" alt="about-img3" class="about-img3">
             </div>
 
-            <div class="col-12 col-md-6">
-                <h3 class="h1 ff-azonix mx-5 mb-5">What we do?</h3>
+            <!-- <div class="col-12 col-md-6">
+                <h3 class="h1 ff-azonix mx-5 mb-5">What we do?</h3> -->
 
 
             <div class="col-12 col-md-6 pt-5">
@@ -167,7 +167,7 @@ include('stickyform.php');
                     <li class="mt-2">We uplift your BRAND with all possibilities among you competitors</li>
 
                 </ul>
-                <ul class="h5 w-100 ff-raleway d-block d-lg-none" >
+                <ul class="h5 w-100 ff-raleway d-block d-lg-none">
                     <li class="mt-2">We create lifelong relationships with our clients.</li>
                     <li class="mt-2">We Communicate on ideas & decide best for you.</li>
                     <li class="mt-2">We discuss & plan goal driven ideas</li>
@@ -187,7 +187,8 @@ include('stickyform.php');
 <section id="our-vision">
     <div class="d-none d-md-block">
         <div class="d-flex justify-content-between align-items-center my-3">
-            <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left" class="left-grey-triangle" style="height:16rem;">
+            <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left"
+                class="left-grey-triangle" style="height:16rem;">
             <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
         </div>
     </div>
@@ -219,7 +220,7 @@ include('stickyform.php');
 </section>
 
 <section id="about-faqs" class="mb-5">
-    <div class="container-fluid px-2 px-md-5">
+    <div class="container px-2 px-md-5">
         <div class="row">
             <div class="col-12 col-lg-6 text-center d-block d-lg-none my-2">
                 <img src="./media/images/about-img4.png" alt="about-img4" class="about-img4">
