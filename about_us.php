@@ -40,8 +40,8 @@ include('stickyform.php');
             </div>
 
             <div class="col-12 col-md-6 pt-5">
-                <h3 class="h1 ff-azonix mb-4 ms-1">Who we are?</h3>
-                <p class="h5 w-75 ff-raleway d-none d-lg-block">
+                <h3 class="h1 ff-azonix mx-5 mb-5">Who we are?</h3>
+                <p class="h5 w-75 ff-raleway d-none d-lg-block mx-5">
                     We are a team of passionate who work in all horizons
                     serving your human & business needs anywhere
                     globally. We strive hard to keep our commitment by
@@ -143,9 +143,6 @@ include('stickyform.php');
 
 </section>
 
-
-
-
 <section id="about-what-we-do" class="mt-4">
     <div class="container-fluid px-2 px-md-5">
         <div class="row">
@@ -154,11 +151,10 @@ include('stickyform.php');
                 <img src="./media/images/about-img3.png" alt="about-img3" class="about-img3">
             </div>
 
+            <div class="col-12 col-md-6">
+                <h3 class="h1 ff-azonix mx-5 mb-5">What we do?</h3>
 
-            <div class="col-12 col-md-6 pt-5">
-                <h3 class="h1 ff-azonix mb-4 ms-1">What we do?</h3>
-
-                <ul class="h5 w-75 ff-raleway d-none d-lg-block">
+                <ul class="h5 w-75 ff-raleway d-none d-lg-block mx-5">
                     <li class="">We create lifelong relationships with our clients.</li>
                     <li class="">We Communicate on ideas & decide best for you.</li>
                     <li class="">We discuss & plan goal driven ideas</li>
@@ -166,7 +162,7 @@ include('stickyform.php');
                     <li class="">We Focus on QUALITY based KPIs</li>
                     <li class="">We uplift your BRAND with all possibilities among you competitors</li>
                 </ul>
-                <ul class="h5 w-100 ff-raleway d-block d-lg-none">
+                <ul class="h5 w-100 ff-raleway d-block d-lg-none" >
                     <li class="">We create lifelong relationships with our clients.</li>
                     <li class="">We Communicate on ideas & decide best for you.</li>
                     <li class="">We discuss & plan goal driven ideas</li>
@@ -176,17 +172,22 @@ include('stickyform.php');
                 </ul>
 
             </div>
-            <div class="col-12 col-md-6 text-center d-none d-md-block my-4">
-                <img src="./media/images/about-img3.png" alt="about-img3" class="about-img3">
+            <div class="col-12 col-md-6 text-center d-none d-md-block">
+                <img src="./media/images/what-we-do.png" alt="about-img3" class="about-img3">
             </div>
         </div>
     </div>
 </section>
 
 <section id="our-vision">
+    <div class="d-none d-md-block">
+        <div class="d-flex justify-content-between align-items-center my-3">
+            <img src="./media/images/home-grey-triangle-left.png" alt="home-grey-triangle-left" class="left-grey-triangle" style="height:16rem;">
+            <img src="./media/images/home-digitalPatner-line.png" alt="home-digitalPatner-line" class="home-line">
+        </div>
+    </div>
     <div class="container text-center my-5">
         <div class="my-5 d-none d-md-block"></div>
-
 
         <h1 class="my-5 ff-azonix">Our Vision</h1>
         <p class="h3 ff-raleway d-none d-md-block fw-bolder">
@@ -212,7 +213,6 @@ include('stickyform.php');
     </div>
 </section>
 
-
 <section id="about-faqs" class="mb-5">
     <div class="container-fluid px-2 px-md-5">
         <div class="row">
@@ -220,9 +220,9 @@ include('stickyform.php');
                 <img src="./media/images/about-img4.png" alt="about-img4" class="about-img4">
             </div>
             <div class="col-12 col-lg-6 pt-5">
-                <h3 class="h1 ff-azonix mb-5 ms-3">FAQs</h3>
+                <h3 class="h1 ff-azonix mx-5">FAQs</h3>
                 <div class="accordion ff-raleway" id="aboutAccordion">
-                    <div class="accordion-item">
+                    <div class="accordion-item mx-3 ">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -240,7 +240,7 @@ include('stickyform.php');
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item mx-3">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -258,7 +258,7 @@ include('stickyform.php');
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item mx-3">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -276,7 +276,7 @@ include('stickyform.php');
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item mx-3">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -302,6 +302,45 @@ include('stickyform.php');
         </div>
     </div>
 </section>
+
+
+
+
+
+<div class="d-flex justify-content-start my-5 ">
+    <img src="./media/images/home-digitalPatner-line.png" alt="pink-triangle" class="W-50" />
+
+</div>
+<div class="container text-center">
+        <div id="social" class="my-5">
+            <div class="row">
+                <div class="col-12">
+                    <spam class="ff-Azonix primary-blue display-1">Link</spam>
+                    <spam class="ff-Azonix primary-pink display-2">With</spam>
+                    <spam class="ff-Azonix primary-blue display-1">Us</spam>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/twitter-logo-4.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
+                    class="social-icon m-1">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="d-flex justify-content-end ">
+    <img src="./media/images/home-digitalPatner-line.png" alt="pink-triangle" class="W-50 my-4" />
+</div>
+
 
 <?php
 include('footer.php');

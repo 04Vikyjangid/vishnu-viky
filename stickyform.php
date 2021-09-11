@@ -5,14 +5,12 @@
                 J
             </button>
 
-            <div class="modal fade" id="jobform" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="jobform" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content bg-black">
                         <div class="modal-header">
                             <h5 class="modal-title" id="staticBackdropLabel">JOB</h5>
-                            <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
+                            <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" id="get-in-touch">
                             <div class="offset-md-2 col-12 col-md-8">
@@ -41,8 +39,7 @@
                                         <label for="description-input" class="form-label ff-azonix">Description</label>
                                         <textarea class="form-control" id="description-input" rows="3"></textarea>
                                     </div>
-                                    <button type="submit"
-                                        class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
+                                    <button type="submit" class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
                                 </form>
                             </div>
                         </div>
@@ -56,14 +53,12 @@
                 I
             </button>
 
-            <div class="modal fade" id="insternshipform" data-bs-backdrop="static" data-bs-keyboard="false"
-                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="insternshipform" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content bg-black">
                         <div class="modal-header">
                             <h5 class="modal-title" id="staticBackdropLabel">INTERNSHIP</h5>
-                            <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
+                            <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" id="get-in-touch">
                             <div class="offset-md-2 col-12 col-md-8">
@@ -92,8 +87,7 @@
                                         <label for="description-input" class="form-label ff-azonix">Description</label>
                                         <textarea class="form-control" id="description-input" rows="3"></textarea>
                                     </div>
-                                    <button type="submit"
-                                        class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
+                                    <button type="submit" class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
                                 </form>
                             </div>
                         </div>
@@ -106,14 +100,12 @@
                 title="Collaboration">
                 C
             </button>
-            <div class="modal fade" id="collaborationform" data-bs-backdrop="static" data-bs-keyboard="false"
-                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="collaborationform" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content bg-black">
                         <div class="modal-header">
                             <h5 class="modal-title" id="staticBackdropLabel">COLLABORATION</h5>
-                            <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
+                            <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" id="get-in-touch">
                             <div class="offset-md-2 col-12 col-md-8">
@@ -142,8 +134,7 @@
                                         <label for="description-input" class="form-label ff-azonix">Description</label>
                                         <textarea class="form-control" id="description-input" rows="3"></textarea>
                                     </div>
-                                    <button type="submit"
-                                        class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
+                                    <button type="submit" class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
                                 </form>
                             </div>
                         </div>
@@ -156,149 +147,103 @@
 
 <div class="sticky-social-icons">
     <ul class="list-unstyled sul">
+        <li class="my-1">
+            <a href="https://www.facebook.com/LinkUsSolutions" target="blank" class="text-decoration-none"><img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon" class="mx-2 social-icon facebook m-1" style="width: 10px;"></a>
+        </li>
+        
+        <li class="my-1">
+            <a href="https://www.instagram.com/LinkUsSolutions" target="blank" class="text-decoration-none"><img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon" class="mx-2 social-icon instagram m-1" style="width: 20px;">
+            </a>
+        </li>
 
-        <li class="social-list"><a id="anchor" href="https://www.facebook.com/LinkUsSolutions" target="blank"><i
-                    class="fab fa-facebook-f"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://www.instagram.com/LinkUsSolutions" target="blank"><i
-                    class="fab fa-instagram"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://www.linkedin.com/Linkussolutions" target="blank"><i
-                    class="fab fa-linkedin-in"></i></a></li>
-        <li class="social-list"><a id="anchor" href="#"><i class="fab fa-youtube" target="blank"></i></a></li>
-        <li class="social-list"><a id="anchor" href="https://wa.me/+919343092938" target="blank"><i
-                    class="fab fa-whatsapp"></i></a></li>
+        <li class="my-1">
+            <a href="https://www.linkedin.com/Linkussolutions" target="blank" class="text-decoration-none"><img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon" class="mx-2 social-icon linkedin m-1" style="width: 20px;">
+            </a>
+        </li>
+        <li class="my-1">
+            <a href="#" target="blank" class="text-decoration-none"><img src="./media/images/twitter-logo-4.png" alt="social icon" class="social-icon m-1 twitter mx-2"  style="width: 20px;"></a>
+        </li>
+        <li class="my-1">
+            <a href="https://wa.me/+919343092938" target="blank" class="text-decoration-none"><img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon" class="mx-2 social-icon whatsapp m-1" style="width: 20px;"></a>
+        </li>
 
     </ul>
 </div>
 
 <style>
-.fob1 {
-    position: fixed;
-    right: 0;
-    top: 345px;
-    background-color: white;
-    color: black;
-    z-index: 1;
-    border-radius: 0;
-    width: 2.5%;
-}
+    .fob1 {
+        position: fixed;
+        right: 0;
+        top: 345px;
+        background-color: white;
+        color: black;
+        z-index: 1;
+        border-radius: 0;
+        width: 2.5%;
+    }
 
-.fob2 {
-    position: fixed;
-    right: 0;
-    top: 385px;
-    width: 2.5%;
-    color: black;
-    background-color: white;
-    z-index: 1;
-    border-radius: 0;
-}
+    .fob2 {
+        position: fixed;
+        right: 0;
+        top: 385px;
+        width: 2.5%;
+        color: black;
+        background-color: white;
+        z-index: 1;
+        border-radius: 0;
+    }
 
-.fob3 {
-    position: fixed;
-    right: 0;
-    top: 425px;
-    color: black;
-    background-color: white;
-    z-index: 1;
-    border-radius: 0;
-    width: 2.5%;
-}
+    .fob3 {
+        position: fixed;
+        right: 0;
+        top: 425px;
+        color: black;
+        background-color: white;
+        z-index: 1;
+        border-radius: 0;
+        width: 2.5%;
+    }
 
-.fob1:hover {
-    border: white solid 2px;
-    width: 3%;
-    transition: 0.15s ease-in;
-    /* background-color: #00e2f9; */
-}
+    .fob1:hover {
+        border: white solid 2px;
+        width: 3%;
+        transition: 0.15s ease-in;
+        /* background-color: #00e2f9; */
+    }
 
-.fob2:hover {
-    border: white solid 2px;
-    width: 3%;
-    transition: 0.15s ease-in;
-    /* background-color:#db135d; */
-}
+    .fob2:hover {
+        border: white solid 2px;
+        width: 3%;
+        transition: 0.15s ease-in;
+        /* background-color:#db135d; */
+    }
 
-.fob3:hover {
-    border: white solid 2px;
-    width: 3%;
-    transition: 0.15s ease-in;
-    /* background-color: #00e2f9; */
-}
+    .fob3:hover {
+        border: white solid 2px;
+        width: 3%;
+        transition: 0.15s ease-in;
+        /* background-color: #00e2f9; */
+    }
 
-.sticky-social-icons {
-    position: fixed;
-    width: 50px;
-    margin-top: 20px;
-    transition: all 0.5s linear;
-    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4);
-    z-index: 1;
-}
+    .sticky-social-icons {
+        position: fixed;
+        width: 50px;
+        margin-top: 20px;
+        transition: all 0.5s linear;
+        /* box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4); */
+        z-index: 1;
+    }
+    .sul .social-list a span {
+        display: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
 
 
-.sticky-social-icons .social-list {
-    height: 50px;
-    position: relative;
-}
-
-
-.sticky-social-icons .social-list #anchor {
-    color: white;
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 60px;
-    padding-left: 20%;
-    border-bottom: 1px solid rgba(0, 0, 0, .4);
-    transition: all .3s linear;
-}
-
-.sticky-social-icons .social-list:nth-child(1) #anchor {
-    background: #4267B2;
-}
-
-.sticky-social-icons .social-list:nth-child(2) #anchor {
-    background: #1DA1F2;
-}
-
-.sticky-social-icons .social-list:nth-child(3) #anchor {
-    background: #E1306C;
-}
-
-.sticky-social-icons .social-list:nth-child(4) #anchor {
-    background: #2867B2;
-}
-
-.sticky-social-icons .social-list:nth-child(5) #anchor {
-    background: #333;
-}
-
-.sticky-social-icons li:nth-child(6) #anchor {
-    background: limegreen;
-}
-
-.sticky-social-icons .social-list #anchor i {
-    position: absolute;
-    top: 12px;
-    left: 15px;
-    font-size: 25px;
-}
-
-.sul .social-list a span {
-    display: none;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-#anchor:hover {
-    z-index: 1;
-    width: 200px;
-    border-bottom: 1px solid rgba(0, 0, 0, .5);
-    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
-}
-
-.sul .social-list:hover #anchor span {
-    padding-left: 30%;
-    display: block;
-}
+    .sul .social-list:hover #anchor span {
+        padding-left: 30%;
+        display: block;
+    }
+    
 </style>
