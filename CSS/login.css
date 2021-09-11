@@ -273,7 +273,7 @@ footer p a:focus:hover {
   section#formHolder .form {
     width: 80vw;
     min-height: 500px;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
   }
   section#formHolder .form .form-peice {
     margin: 0;
@@ -286,6 +286,7 @@ footer p a:focus:hover {
     transform: translateY(-100%);
     width: 100%;
     left: 0;
+    display: none;
   }
   section#formHolder .form .form-peice > form {
     width: 100% !important;
@@ -306,4 +307,8 @@ footer p a:focus:hover {
 
 #formHolder .logo img {
   height: 1rem;
+}
+
+.heading > h2.ff-azonix {
+  font-size: calc(3rem + 0.4vw);
 }

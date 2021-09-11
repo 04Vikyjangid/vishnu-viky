@@ -28,7 +28,7 @@ include('stickyform.php');
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="d-flex justify-content-between align-items-center shirt-tie">
-                    <img src="./media/images/shirt-tie.png" alt="shirt-tie">
+                    <img src="./media/images/shirt-new-tie.png" alt="shirt-tie">
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ include('stickyform.php');
             Our Expertise
         </p>
 
-        <p class="text-center h5 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
+        <p class="text-center h4 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
             Looking for full fledged RPO, Digital & IT Solutions ? LinkUs Have You Covered
         </p>
 
@@ -106,8 +106,9 @@ include('stickyform.php');
                 </span>
             </div>
         </div>
-        <div class="text-center mt-4"> <button type="button"
-                class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Get a quote</button></div>
+
+        <div class="text-center mt-4"> <button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Explore Us</button></div>
+
     </div>
 </section>
 
@@ -190,7 +191,7 @@ include('stickyform.php');
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component px-3">
-                    <h2 class="ff-azonix">CLIENT DISCUSSION</h2>
+                    <h2 class="ff-azonix">Idea</h2>
                     <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
                         laudantium ipsa ad debitis unde? Iste
@@ -222,7 +223,7 @@ include('stickyform.php');
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component px-3">
-                    <h2 class="ff-azonix">EXECUTION</h2>
+                    <h2 class="ff-azonix">Working</h2>
                     <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
                         laudantium ipsa ad debitis unde? Iste
@@ -267,32 +268,59 @@ include('stickyform.php');
         </p>
 
         <div class="row px-2">
-            <div class="offset-md-2 col-12 col-md-8">
+
+            <div class="offset-md-2 col-12 col-md-8" id="get-in-touch">
 
                 <form onsubmit="sendData(event, 'index-footer-form')" id="index-footer-form">
+
                     <div class="mb-3 text-start">
                         <label for="name-input" class="form-label ff-azonix">Name</label>
-                        <input type="text" class="form-control" id="name-input">
+                        <input type="text" class="form-control home-footer-form" id="name-input">
                     </div>
                     <div class="mb-3 text-start">
                         <label for="contact-input" class="form-label ff-azonix">Contact</label>
-                        <input type="tel" class="form-control" id="contact-input">
+                        <input type="tel" class="form-control home-footer-form" id="contact-input">
                     </div>
                     <div class="mb-3 text-start">
                         <label for="email-input" class="form-label ff-azonix">Email</label>
-                        <input type="email" class="form-control" id="email-input">
+                        <input type="email" class="form-control home-footer-form" id="email-input">
                     </div>
+
                     <div class="mb-3 text-start">
-                        <label for="select-input" class="form-label ff-azonix">Select</label>
-                        <select id="select-input" class="form-select">
-                            <option value="Option 1">Option 1</option>
-                            <option value="Option 2">Option 2</option>
-                            <option value="Option 3">Option 3</option>
-                        </select>
+
+                        <label for="radio-input" class="form-label ff-azonix w-radio-100">Select</label>
+
+
+
+
+                        <div class="form-check footer-radio-inline ms-2">
+                            <input class="form-check-input" type="radio" name="index-footer-radio" id="select1"
+                                value="select1" checked>
+                            <label class="form-check-label" for="select1">
+                                Select One
+                            </label>
+                        </div>
+                        <div class="form-check footer-radio-inline">
+                            <input class="form-check-input" type="radio" name="index-footer-radio" id="select2"
+                                value="select2">
+                            <label class="form-check-label" for="select2">
+                                Select Two
+                            </label>
+                        </div>
+
+                        <div class="form-check footer-radio-inline">
+                            <input class="form-check-input" type="radio" name="index-footer-radio" id="select3"
+                                value="select3">
+                            <label class="form-check-label" for="select3">
+                                Select Three
+                            </label>
+                        </div>
+
                     </div>
                     <div class="mb-3 text-start">
                         <label for="description-input" class="form-label ff-azonix">Description</label>
-                        <textarea class="form-control" id="description-input" rows="3"></textarea>
+                        <textarea class="form-control home-footer-form" id="description-input" rows="3"></textarea>
+
                     </div>
                     <button type="submit"
                         class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
@@ -321,7 +349,12 @@ include('stickyform.php');
                     class="w-35 d-none d-md-block">
             </div>
         </div>
-        <div id="social" class="mt-5">
+    </div>
+    <div class="d-flex justify-content-start my-5 ">
+        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
+    </div>
+    <div class="container text-center">
+        <div id="social" class="my-5">
             <div class="row">
                 <div class="col-12">
                     <spam class="ff-Azonix primary-blue display-1">Link</spam>
@@ -342,9 +375,11 @@ include('stickyform.php');
                 </div>
             </div>
         </div>
-
     </div>
 </section>
+<div class="d-flex justify-content-end ">
+    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
+</div>
 
 <?php
 include('footer.php');
