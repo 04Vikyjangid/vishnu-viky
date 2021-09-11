@@ -161,7 +161,7 @@ section#formHolder {
 }
 .form form label {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 800;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   transform: translateY(40px);
@@ -212,11 +212,10 @@ section#formHolder {
   font-size: 12px;
   text-transform: uppercase;
   padding: 5px 30px;
-  background: #f95959;
-  color: #fff;
+  /* background: #f95959; */
+  color: #000;
   border-radius: 30px;
   margin-right: 20px;
-  border: none;
   font-family: "Montserrat", sans-serif;
 }
 .form form .CTA a.switch {
