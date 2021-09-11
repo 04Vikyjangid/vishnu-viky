@@ -41,12 +41,32 @@ include('stickyform.php');
                                 <input type="email" class="form-control" id="email-input">
                             </div>
                             <div class="mb-3 text-start">
-                                <label for="select-input" class="form-label ff-azonix">Select</label>
-                                <select id="select-input" class="form-select">
-                                    <option>Option 1</option>
-                                    <option>Option 2</option>
-                                    <option>Option 3</option>
-                                </select>
+
+                                <label for="radio-input" class="form-label ff-azonix w-radio-100">Select</label>
+
+                                <div class="form-check footer-radio-inline ms-2">
+                                    <input class="form-check-input" type="radio" name="index-footer-radio" id="select1"
+                                        value="select1" checked>
+                                    <label class="form-check-label" for="select1">
+                                        Job
+                                    </label>
+                                </div>
+                                <div class="form-check footer-radio-inline">
+                                    <input class="form-check-input" type="radio" name="index-footer-radio" id="select2"
+                                        value="select2">
+                                    <label class="form-check-label" for="select2">
+                                        Internship
+                                    </label>
+                                </div>
+
+                                <div class="form-check footer-radio-inline">
+                                    <input class="form-check-input" type="radio" name="index-footer-radio" id="select3"
+                                        value="select3">
+                                    <label class="form-check-label" for="select3">
+                                        Collaboration
+                                    </label>
+                                </div>
+
                             </div>
                             <div class="mb-3 text-start">
                                 <label for="description-input" class="form-label ff-azonix">Description</label>
