@@ -362,7 +362,6 @@ include('stickyform.php');
             </div>
             <div class="row">
                 <div class="col-12">
-                    
                     <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon"
                         class="social-icon m-1">
                     <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
