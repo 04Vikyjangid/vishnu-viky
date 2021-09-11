@@ -28,7 +28,7 @@ include('stickyform.php');
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="d-flex justify-content-between align-items-center shirt-tie">
-                    <img src="./media/images/shirt-tie.png" alt="shirt-tie">
+                    <img src="./media/images/shirt-new-tie.png" alt="shirt-tie">
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ include('stickyform.php');
             Our Expertise
         </p>
 
-        <p class="text-center h5 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
+        <p class="text-center h4 mb-4 px-5 d-none d-md-block ff-raleway text-capitalize">
             Looking for full fledged RPO, Digital & IT Solutions ? LinkUs Have You Covered
         </p>
 
@@ -106,8 +106,10 @@ include('stickyform.php');
                 </span>
             </div>
         </div>
-        <div class="text-center mt-4"> <button type="button"
-                class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Get a quote</button></div>
+
+        <div class="text-center mt-4"> <button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Explore Us</button></div>
+
+
     </div>
 </section>
 
@@ -190,7 +192,7 @@ include('stickyform.php');
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component px-3">
-                    <h2 class="ff-azonix">CLIENT DISCUSSION</h2>
+                    <h2 class="ff-azonix">Idea</h2>
                     <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
                         laudantium ipsa ad debitis unde? Iste
@@ -222,7 +224,7 @@ include('stickyform.php');
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component px-3">
-                    <h2 class="ff-azonix">EXECUTION</h2>
+                    <h2 class="ff-azonix">Working</h2>
                     <p class="color-contrast-medium ff-philosopher h5">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora
                         laudantium ipsa ad debitis unde? Iste
@@ -267,8 +269,7 @@ include('stickyform.php');
         </p>
 
         <div class="row px-2">
-            <div class="offset-md-2 col-12 col-md-8">
-
+            <div class="offset-md-2 col-12 col-md-8" id="get-in-touch">
                 <form>
                     <div class="mb-3 text-start">
                         <label for="name-input" class="form-label ff-azonix">Name</label>
@@ -344,7 +345,12 @@ include('stickyform.php');
                     class="w-35 d-none d-md-block">
             </div>
         </div>
-        <div id="social" class="mt-5">
+    </div>
+    <div class="d-flex justify-content-start my-5 ">
+        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
+    </div>
+    <div class="container text-center">
+        <div id="social" class="my-5">
             <div class="row">
                 <div class="col-12">
                     <spam class="ff-Azonix primary-blue display-1">Link</spam>
@@ -365,9 +371,11 @@ include('stickyform.php');
                 </div>
             </div>
         </div>
-
     </div>
 </section>
+<div class="d-flex justify-content-end ">
+    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
+</div>
 
 <?php
 include('footer.php');
