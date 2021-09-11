@@ -42,12 +42,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $myObj = new stdClass();
             $myObj->status = "pass";
             $myObj->message = "mail sent.";
-            die(json_encode($myObj));
+            echo json_encode($myObj);
+            die();
         } else {
             $myObj = new stdClass();
             $myObj->status = "fail";
             $myObj->message = "Something went wrong.";
-            die(json_encode($myObj));
+            echo json_encode($myObj);
+            die();
         }
     } elseif (isset($_POST['type'])) {
 
@@ -60,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $result = mysqli_query($conn, $sql);
 
             $row = mysqli_fetch_assoc($result);
-            // die($row['password']);
+            // echo $row['password']);
 
             $num = mysqli_num_rows($result);
 
@@ -73,18 +75,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $myObj = new stdClass();
                     $myObj->status = "success";
                     $myObj->message = "Login Succesful";
-                    die(json_encode($myObj));
+                    echo json_encode($myObj);
+                    die();
                 } else {
                     $myObj = new stdClass();
                     $myObj->status = "fail";
                     $myObj->message = "Wrong Username or password";
-                    die(json_encode($myObj));
+                    echo json_encode($myObj);
+                    die();
                 }
             } else {
                 $myObj = new stdClass();
                 $myObj->status = "fail";
                 $myObj->message = "Email is not registered.";
-                die(json_encode($myObj));
+                echo json_encode($myObj);
+                die();
             }
         } elseif ($_POST['type'] == 'register') {
             $email = $_POST['email'];
@@ -96,7 +101,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $myObj = new stdClass();
                 $myObj->status = "fail";
                 $myObj->message = "Password dont match";
-                die(json_encode($myObj));
+                echo json_encode($myObj);
+                die();
             }
 
             $strongPassword = preg_match('/^\S*(?=\S{8,})(?=\S*[a-z])(?=\S*[A-Z])(?=\S*[\d])\S*$/', $password);
@@ -105,7 +111,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $myObj = new stdClass();
                 $myObj->status = "fail";
                 $myObj->message = "Password is not strong";
-                die(json_encode($myObj));
+                echo json_encode($myObj);
+                die();
             }
 
             $sql = "Select * from users where email_address='$email'";
@@ -136,30 +143,35 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $myObj = new stdClass();
                     $myObj->status = "success";
                     $myObj->message = "Registeration Succesful";
-                    die(json_encode($myObj));
+                    echo json_encode($myObj);
+                    die();
                 } else {
                     $myObj = new stdClass();
                     $myObj->status = "fail";
                     $myObj->message = "Registeration fail";
-                    die(json_encode($myObj));
+                    echo json_encode($myObj);
+                    die();
                 }
             } else {
                 $myObj = new stdClass();
                 $myObj->status = "fail";
                 $myObj->message = "Email is already registered";
-                die(json_encode($myObj));
+                echo json_encode($myObj);
+                die();
             }
         } else {
             $myObj = new stdClass();
             $myObj->status = "fail";
             $myObj->message = "wrong type";
-            die(json_encode($myObj));
+            echo json_encode($myObj);
+            die();
         }
     } else {
         $myObj = new stdClass();
         $myObj->status = "fail";
         $myObj->message = "missing parameter";
-        die(json_encode($myObj));
+        echo json_encode($myObj);
+        die();
     }
 } else {
     echo 'hello get';
