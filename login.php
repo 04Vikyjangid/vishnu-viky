@@ -17,17 +17,17 @@ include('header.php');
                     <p class="ff-raleway">Fostering Horizons</p>
                 </div>
 
-                <div class="success-msg">
+                <!-- <div class="success-msg">
                     <p>Great! You are one of our members now</p>
                     <a href="#" class="profile">Your Profile</a>
-                </div>
+                </div> -->
             </div>
 
             <!-- Form Box -->
             <div class="col-sm-6 form">
                 <!-- Login Form -->
                 <div class="login form-peice switched">
-                    <form class="login-form" action="#" method="post">
+                    <form class="login-form" onsubmit="userData(event, 'login')">
                         <div class="form-group">
                             <label for="loginemail">Email Adderss</label>
                             <input type="email" name="loginemail" id="loginemail" required />
@@ -48,7 +48,7 @@ include('header.php');
 
                 <!-- Signup Form -->
                 <div class="signup form-peice">
-                    <form class="signup-form" action="#" method="post">
+                    <form class="signup-form" onsubmit="userData(event, 'register')">
                         <div class="form-group">
                             <label for="name">Full Name</label>
                             <input type="text" name="username" id="name" class="name" />
@@ -87,3 +87,4 @@ include('header.php');
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="./js/login.js"></script>
+<script src="./JS/form.js"></script>
