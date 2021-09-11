@@ -5,33 +5,57 @@
                 <a class="navbar-brand" href="/LINKUS SOLUTION/index.php">
                     <img src="./media/images/LINKUSLOGO.png" alt="LOGO" id="logo">
                 </a>
-                <button class="navbar-toggler bg-dark text-white border-white" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                <button class="navbar-toggler bg-dark text-white border-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#main_nav">
                     <span class="navbar-toggler-icon">...</span>
                 </button>
                 <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav menu-li ff-raleway ">
                         <li class="nav-item mx-3">
-                            <a class="nav-link <?php if($pageTitle=='Home'){echo 'active';}?>" aria-current="page" href="./index.php">HOME</a>
+                            <a class="nav-link <?php if($pageTitle=='Home'){echo 'active';}?>" aria-current="page"
+                                href="./index.php">HOME</a>
                         </li>
                         <li class="nav-item mx-3 ">
-                            <a class="nav-link <?php if($pageTitle=='About_Us'){echo 'active';}?>" href="./about_us.php">ABOUT US</a>
+                            <a class="nav-link <?php if($pageTitle=='About_Us'){echo 'active';}?>"
+                                href="./about_us.php">ABOUT US</a>
                         </li>
                         <li class="nav-item dropdown mx-3">
-                            <a class="nav-link dropdown-toggle <?php if($pageTitle=='Our Services'){echo 'active';}?>" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle <?php if($pageTitle=='Our Services'){echo 'active';}?>"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 SERVICES
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">RPO</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">Training & Placements</a></li>
-                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>" href="./services.php">SEO</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>"
+                                        href="./services.php">RPO</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>"
+                                        href="./services.php">Training & Placements</a></li>
+                                <li><a class="dropdown-item <?php if($pageTitle=='Our Services'){echo 'active';}?>"
+                                        href="./services.php">SEO</a></li>
                             </ul>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link <?php if($pageTitle=='Contact_Us'){echo 'active';}?>" href="./contact_us.php">CONTACT US</a>
+                            <a class="nav-link <?php if($pageTitle=='Contact_Us'){echo 'active';}?>"
+                                href="./contact_us.php">CONTACT US</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link <?php if($pageTitle=='Login & Sign up'){echo 'active';}?>" href="./login.php"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <a class="nav-link <?php if($pageTitle=='Login & Sign up'){echo 'active';}?>"
+                                href="./login.php"><i class="fa fa-user" aria-hidden="true"></i>
+                                <script>
+                                if (localStorage.getItem('name')) {
+                                    document.write('<span class="ms-2">' + localStorage.getItem('name') + '</span>');
+                                }
+                                </script>
+
+                            </a>
                         </li>
+                        <script>
+                        if (localStorage.getItem('name')) {
+                            document.write(
+                                '<li class="nav-item mx-3">  <a class="nav-link" href="#" onclick="return logout()">Logout</a></li>'
+                            );
+                        }
+                        </script>
+
                     </ul>
                 </div>
             </div>
