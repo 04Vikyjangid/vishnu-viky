@@ -109,7 +109,6 @@ include('stickyform.php');
 
         <div class="text-center mt-4"> <button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Explore Us</button></div>
 
-
     </div>
 </section>
 
@@ -269,8 +268,11 @@ include('stickyform.php');
         </p>
 
         <div class="row px-2">
+
             <div class="offset-md-2 col-12 col-md-8" id="get-in-touch">
-                <form>
+
+                <form onsubmit="sendData(event, 'index-footer-form')" id="index-footer-form">
+
                     <div class="mb-3 text-start">
                         <label for="name-input" class="form-label ff-azonix">Name</label>
                         <input type="text" class="form-control home-footer-form" id="name-input">
@@ -285,6 +287,7 @@ include('stickyform.php');
                     </div>
 
                     <div class="mb-3 text-start">
+
                         <label for="radio-input" class="form-label ff-azonix w-radio-100">Select</label>
 
 
@@ -317,6 +320,7 @@ include('stickyform.php');
                     <div class="mb-3 text-start">
                         <label for="description-input" class="form-label ff-azonix">Description</label>
                         <textarea class="form-control home-footer-form" id="description-input" rows="3"></textarea>
+
                     </div>
                     <button type="submit"
                         class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>

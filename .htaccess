@@ -1,1 +1,2 @@
+Header add Access-Control-Allow-Origin "*"
 ErrorDocument 404 /404.php

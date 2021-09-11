@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Contact_Us';
+$pageTitle = 'Contact Us';
 include('header.php');
 include('stickyform.php');
 ?>
@@ -27,7 +27,7 @@ include('stickyform.php');
             <section id="get-in-touch" class="bg-black">
                 <div class="container text-center">
                     <div class="offset-md-2 col-12 col-md-8">
-                        <form>
+                        <form onsubmit="sendData(event, 'contactUs-form-submit')" id="contactUs-form-submit">
                             <div class="mb-3 text-start">
                                 <label for="name-input" class="form-label ff-azonix">Name</label>
                                 <input type="text" class="form-control" id="name-input">
@@ -49,10 +49,11 @@ include('stickyform.php');
                                 </select>
                             </div>
                             <div class="mb-3 text-start">
-                                <label for="exampleInputPassword1" class="form-label ff-azonix">Description</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <label for="description-input" class="form-label ff-azonix">Description</label>
+                                <textarea class="form-control" id="description-input" rows="3"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
+                            <button type="submit"
+                                class="btn btn-outline-light btn-lg rounded-pill px-5 mx-4 mt-3 text-uppercase">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -75,15 +76,19 @@ include('stickyform.php');
                     <div class="accordion ff-raleway" id="aboutAccordion">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                     <span class="accordianSign me-3"> + </span> What we offer to our clients ?
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#aboutAccordion">
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#aboutAccordion">
                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere veniam
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere
+                                    veniam
                                     rem eaque ut at dolorem excepturi assumenda laudantium error iusto, officiis itaque
-                                    doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores, dolorem
+                                    doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores,
+                                    dolorem
                                     non deserunt inventore minus cum voluptate! Atque, incidunt aspernatur? Accusamus,
                                     aspernatur? Fugiat, deserunt rerum.
                                 </div>
@@ -91,15 +96,20 @@ include('stickyform.php');
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <span class="accordianSign me-3"> + </span> How we help you to fulfill your RPO needs?
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span class="accordianSign me-3"> + </span> How we help you to fulfill your RPO
+                                    needs?
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#aboutAccordion">
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#aboutAccordion">
                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere veniam
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere
+                                    veniam
                                     rem eaque ut at dolorem excepturi assumenda laudantium error iusto, officiis itaque
-                                    doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores, dolorem
+                                    doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores,
+                                    dolorem
                                     non deserunt inventore minus cum voluptate! Atque, incidunt aspernatur? Accusamus,
                                     aspernatur? Fugiat, deserunt rerum.
                                 </div>
@@ -107,15 +117,19 @@ include('stickyform.php');
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <span class="accordianSign me-3"> + </span> What are the best services we offer
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#aboutAccordion">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#aboutAccordion">
                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere veniam
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere
+                                    veniam
                                     rem eaque ut at dolorem excepturi assumenda laudantium error iusto, officiis itaque
-                                    doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores, dolorem
+                                    doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores,
+                                    dolorem
                                     non deserunt inventore minus cum voluptate! Atque, incidunt aspernatur? Accusamus,
                                     aspernatur? Fugiat, deserunt rerum.
                                 </div>
@@ -123,15 +137,19 @@ include('stickyform.php');
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <span class="accordianSign me-3"> + </span> What are the best services we offer
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#aboutAccordion">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#aboutAccordion">
                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere veniam
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil facere
+                                    veniam
                                     rem eaque ut at dolorem excepturi assumenda laudantium error iusto, officiis itaque
-                                    doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores, dolorem
+                                    doloribus! Eum cum temporibus esse et? Nesciunt ut necessitatibus sunt. Maiores,
+                                    dolorem
                                     non deserunt inventore minus cum voluptate! Atque, incidunt aspernatur? Accusamus,
                                     aspernatur? Fugiat, deserunt rerum.
                                 </div>
@@ -141,6 +159,7 @@ include('stickyform.php');
                 </div>
             </section>
         </div>
+
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-que">
             <img src="./media/images/contact-que.png" class="W-50  p-5justify-content-center">
         </div>
@@ -148,6 +167,7 @@ include('stickyform.php');
 </div>
 <div class="d-flex justify-content-start my-5 ">
     <img src="./media/images/home-digitalPatner-line.png" alt="pink-triangle" class="W-50" />
+
 </div>
 <div class="container text-center">
     <div id="social" class="my-5">

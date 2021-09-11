@@ -2,7 +2,11 @@
 $pageTitle = 'Login & Sign up';
 include('header.php');
 ?>
-
+<script>
+if (localStorage.getItem('name')) {
+    window.location.replace("/");
+}
+</script>
 <div class="container">
     <section id="formHolder">
         <div class="row">
@@ -13,19 +17,24 @@ include('header.php');
                     <h2 class="ff-azonix">Welcome</h2>
 
                 </div>
+
                 <div class="success-msg">
+
                     <p>Great! You are one of our members now</p>
                     <a href="#" class="profile">Your Profile</a>
-                </div>
+                </div> -->
             </div>
             <!-- Form Box -->
             <div class="col-sm-6 form mx-auto">
                 <!-- Login Form -->
                 <div class="login form-peice switched">
 
-                    <form class="login-form" action="#" method="post">
+                    <form class="login-form" onsubmit="userData(event, 'login')">
+                        <div id="login-msg"></div>
+
 
                         <h2 class="ff-azonix text-dark">Login</h2>
+
 
                         <div class="form-group">
                             <label for="loginemail">Email Adderss</label>
@@ -45,9 +54,13 @@ include('header.php');
 
                 <!-- Signup Form -->
                 <div class="signup form-peice">
-                    <form class="signup-form" action="#" method="post">
+
+                    <form class="signup-form" onsubmit="userData(event, 'register')">
+                        <div id="signup-msg"></div>
+
 
                         <h2 class="ff-azonix text-dark">Register</h2>
+
 
                         <div class="form-group">
                             <label for="name">Full Name</label>
@@ -87,3 +100,4 @@ include('header.php');
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="./js/login.js"></script>
+<script src="./JS/form.js"></script>
