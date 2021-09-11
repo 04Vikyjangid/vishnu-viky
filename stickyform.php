@@ -1,7 +1,7 @@
 <div class="sticky-form">
     <ul class="list-unstyled">
         <li>
-            <button type="button" class="btn fob1" data-bs-toggle="modal" data-bs-target="#jobform">
+            <button type="button" class="btn fob1" data-bs-toggle="modal" data-bs-target="#jobform" title="Job">
                 J
             </button>
 
@@ -48,7 +48,8 @@
             </div>
         </li>
         <li class="my-3">
-            <button type="button" class="btn fob2" data-bs-toggle="modal" data-bs-target="#insternshipform">
+            <button type="button" class="btn fob2" data-bs-toggle="modal" data-bs-target="#insternshipform"
+                title="Internship">
                 I
             </button>
 
@@ -95,7 +96,8 @@
             </div>
         </li>
         <li>
-            <button type="button" class="btn fob3" data-bs-toggle="modal" data-bs-target="#collaborationform">
+            <button type="button" class="btn fob3" data-bs-toggle="modal" data-bs-target="#collaborationform"
+                title="Collaboration">
                 C
             </button>
             <div class="modal fade" id="collaborationform" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -164,6 +166,7 @@
         <li class="my-1">
             <a href="https://wa.me/+919343092938" target="blank" class="text-decoration-none"><img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon" class="mx-2 social-icon whatsapp m-1" style="width: 20px;"></a>
         </li>
+
     </ul>
 </div>
 
@@ -236,6 +239,7 @@
         letter-spacing: 1px;
         text-transform: uppercase;
     }
+
 
     .sul .social-list:hover #anchor span {
         padding-left: 30%;

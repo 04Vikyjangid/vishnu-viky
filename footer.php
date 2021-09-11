@@ -38,12 +38,16 @@
                 <div class="col-2">
                     <i class="fa fa-map-marker text-blue h4 px-3" aria-hidden="true"></i>
                 </div>
-                <div class="col-10">
-                    <ul class="list-unstyled footer-ul">
-                        <li class="text-white text-bold" style="float: left;">Indore, Madhya Pradesh - INDIA</li>
-                    </ul>
+                <div class="row my-1">
+                    <div class="col-2">
+                        <i class="fa fa-map-marker text-blue h2 px-3" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-10">
+                        <ul class="list-unstyled footer-ul">
+                            <li class="text-white text-bold" style="float: left;">Indore, Madhya Pradesh - INDIA</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 px-5 text-white">
             <h3 class="ff-Azonix text-blue float-right my-1 footer-heading" style="text-align: left;">Quick Links</h3>
@@ -69,6 +73,7 @@
                  <a href="https://www.facebook.com/LinkUsSolutions" target="blank" class="text-decoration-none text-white"><img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon" class="social-icon m-1" style="width: 10px;"> &nbsp;&nbsp;Facebook</a>
                 </li>    
                 <li class="my-1">
+
                   <a href="https://www.instagram.com/LinkUsSolutions" target="blank" class="text-decoration-none text-white"><img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon" class="social-icon m-1" style="width: 20px;">
                     Instagram</a>
                 </li>
@@ -116,12 +121,12 @@
     </div>
 </footer>
 </body>
-<script src="./JS/bootstrap.bundle.min.js"></script>
-<script src="./JS/form.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/form.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js">
 </script>
-<script src="./JS/navbar.js"></script>
-<script src="./JS/script.js"></script>
+<script src="./js/navbar.js"></script>
+<script src="./js/script.js"></script>
 
 </html>

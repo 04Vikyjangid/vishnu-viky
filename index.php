@@ -106,7 +106,8 @@ include('stickyform.php');
             </div>
         </div>
 
-        <div class="text-center mt-4"> <button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Explore Us</button></div>
+        <div class="text-center mt-4"> <button type="button"
+                class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Explore Us</button></div>
 
     </div>
 </section>
@@ -285,21 +286,18 @@ include('stickyform.php');
 
                         <label for="radio-input" class="form-label ff-azonix w-radio-100">Select</label>
 
-
-
-
                         <div class="form-check footer-radio-inline ms-2">
                             <input class="form-check-input" type="radio" name="index-footer-radio" id="select1"
                                 value="select1" checked>
                             <label class="form-check-label" for="select1">
-                                Select One
+                                Job
                             </label>
                         </div>
                         <div class="form-check footer-radio-inline">
                             <input class="form-check-input" type="radio" name="index-footer-radio" id="select2"
                                 value="select2">
                             <label class="form-check-label" for="select2">
-                                Select Two
+                                Internship
                             </label>
                         </div>
 
@@ -307,7 +305,7 @@ include('stickyform.php');
                             <input class="form-check-input" type="radio" name="index-footer-radio" id="select3"
                                 value="select3">
                             <label class="form-check-label" for="select3">
-                                Select Three
+                                Collaboration
                             </label>
                         </div>
 
@@ -348,7 +346,7 @@ include('stickyform.php');
     <div class="text-center mt-4"> <a class="text-decoration-none" href="./contact_us.php"><button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Talk to an Expert</button></a></div>
 
     <div class="d-flex justify-content-start my-5 ">
-        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
+        <img src="./media/images/home-digitalPatner-line.png" alt="pink-triangle" class="W-50 my-5" />
     </div>
 
     <div class="container text-center">
@@ -378,7 +376,7 @@ include('stickyform.php');
     </div>
 </section>
 <div class="d-flex justify-content-end ">
-    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50 my-5"/>
+    <img src="./media/images/home-digitalPatner-line.png" alt="pink-triangle" class="W-50 my-5" />
 </div>
 
 <?php
