@@ -13,14 +13,10 @@ include('stickyform.php');
         </div>
         <!-- <img src="./media/images/about-hello.png" alt="hello" class="mt-5 w-50"> -->
         <p class="h3 ff-raleway d-none d-md-block">
-            LinkUs is a multipurpose solutions based company established in HEART of INDIA, delivering its widest range
-            of
-            services across ASIA.
+        LinkUs is a multipurpose solutions based company established in HEART of INDIA, delivering its widest range of services across ASIA.
         </p>
         <p class="h5 ff-raleway d-block d-md-none">
-            LinkUs is a multipurpose solutions based company established in HEART of INDIA, delivering its widest range
-            of
-            services across ASIA.
+        LinkUs is a multipurpose solutions based company established in HEART of INDIA, delivering its widest range of services across ASIA.
         </p>
     </div>
 
@@ -42,30 +38,10 @@ include('stickyform.php');
             <div class="col-12 col-md-6 pt-5">
                 <h3 class="h1 ff-azonix mx-5 mb-5">Who we are?</h3>
                 <p class="h5 w-75 ff-raleway d-none d-lg-block mx-5">
-                    We are a team of passionate who work in all horizons
-                    serving your human & business needs anywhere
-                    globally. We strive hard to keep our commitment by
-                    delivering best in class services & data driven - high
-                    end digital products to our clients. With our mindful
-                    approach, innovative strategies, and quality-centric
-                    delivery, we have been able to stand apart in the
-                    market setting benchmark of quality assurance.
-                    Joining hands with us will reward you with best
-                    team delivering possibilities adding support to boost
-                    your ROI that too, at a reasonable cost.
+                We are a team of passionate who work in all horizons serving your human & business needs anywhere globally. We strive hard to keep our commitment by delivering best in class services & data driven - high end digital products to our clients. With our mindful approach, innovative strategies, and quality-centric delivery, we have been able to stand apart in the market setting benchmark of quality assurance. Joining hands with us will reward you with best team delivering possibilities adding support to boost your ROI that too, at a reasonable cost.
                 </p>
                 <p class="h5 w-100 ff-raleway d-block d-lg-none">
-                    We are a team of passionate who work in all horizons
-                    serving your human & business needs anywhere
-                    globally. We strive hard to keep our commitment by
-                    delivering best in class services & data driven - high
-                    end digital products to our clients. With our mindful
-                    approach, innovative strategies, and quality-centric
-                    delivery, we have been able to stand apart in the
-                    market setting benchmark of quality assurance.
-                    Joining hands with us will reward you with best
-                    team delivering possibilities adding support to boost
-                    your ROI that too, at a reasonable cost.
+                We are a team of passionate who work in all horizons serving your human & business needs anywhere globally. We strive hard to keep our commitment by delivering best in class services & data driven - high end digital products to our clients. With our mindful approach, innovative strategies, and quality-centric delivery, we have been able to stand apart in the market setting benchmark of quality assurance. Joining hands with us will reward you with best team delivering possibilities adding support to boost your ROI that too, at a reasonable cost.
                 </p>
             </div>
             <div class="col-12 col-md-6 text-center d-none d-md-block my-4">
@@ -99,31 +75,11 @@ include('stickyform.php');
             <div class="col-12 col-md-6 pt-5">
                 <h3 class="h1 ff-azonix mb-4 ms-1">Why Us?</h3>
                 <p class="h5 w-75 ff-raleway d-none d-lg-block">
-                    We are a team of passionate who work in all horizons
-                    serving your human & business needs anywhere
-                    globally. We strive hard to keep our commitment by
-                    delivering best in class services & data driven - high
-                    end digital products to our clients. With our mindful
-                    approach, innovative strategies, and quality-centric
-                    delivery, we have been able to stand apart in the
-                    market setting benchmark of quality assurance.
-                    Joining hands with us will reward you with best
-                    team delivering possibilities adding support to boost
-                    your ROI that too, at a reasonable cost.
+                We are a team of passionate who work in all horizons serving your human & business needs anywhere globally. We strive hard to keep our commitment by delivering best in class services & data driven - high end digital products to our clients. With our mindful approach, innovative strategies, and quality-centric delivery, we have been able to stand apart in the market setting benchmark of quality assurance. Joining hands with us will reward you with best team delivering possibilities adding support to boost your ROI that too, at a reasonable cost.
 
                 </p>
                 <p class="h5 w-100 ff-raleway d-block d-lg-none">
-                    We are a team of passionate who work in all horizons
-                    serving your human & business needs anywhere
-                    globally. We strive hard to keep our commitment by
-                    delivering best in class services & data driven - high
-                    end digital products to our clients. With our mindful
-                    approach, innovative strategies, and quality-centric
-                    delivery, we have been able to stand apart in the
-                    market setting benchmark of quality assurance.
-                    Joining hands with us will reward you with best
-                    team delivering possibilities adding support to boost
-                    your ROI that too, at a reasonable cost.
+                We are a team of passionate who work in all horizons serving your human & business needs anywhere globally. We strive hard to keep our commitment by delivering best in class services & data driven - high end digital products to our clients. With our mindful approach, innovative strategies, and quality-centric delivery, we have been able to stand apart in the market setting benchmark of quality assurance. Joining hands with us will reward you with best team delivering possibilities adding support to boost your ROI that too, at a reasonable cost.
 
                 </p>
             </div>
