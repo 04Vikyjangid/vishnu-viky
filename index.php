@@ -28,7 +28,8 @@ include('stickyform.php');
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="d-flex justify-content-center align-items-center shirt-tie">
-                    <img src="./media/images/shirt-new-tie.png" alt="shirt-tie" style="  height: 363px !important; width: 50% !important;">
+                    <img src="./media/images/shirt-new-tie.png" alt="shirt-tie"
+                        style="  height: 363px !important; width: 50% !important;">
                 </div>
             </div>
         </div>
@@ -347,7 +348,6 @@ include('stickyform.php');
             </div>
         </div>
     </div>
-    <div class="text-center mt-4"> <a class="text-decoration-none" href="./contact_us.php"><button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Talk to an Expert</button></a></div>
 
     <div class="d-flex justify-content-start my-5 ">
         <img src="./media/images/home-digitalPatner-line.png" alt="pink-triangle" class="W-50 my-5" />
@@ -370,9 +370,9 @@ include('stickyform.php');
                         class="social-icon m-1">
                     <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
                         class="social-icon m-1">
-                    <img src="./media/images/twitter-logo-4.png" alt="social icon"  class="social-icon m-1">
+                    <img src="./media/images/twitter-logo-4.png" alt="social icon" class="social-icon m-1">
                     <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
-                    class="social-icon m-1">
+                        class="social-icon m-1">
                 </div>
             </div>
         </div>
