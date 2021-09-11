@@ -58,14 +58,8 @@ section {
   line-height: 0.85;
 }
 
-.shirt-tie img {
-  height: 90vh;
-  width: 80vh;
-  margin-left: 20px;
-}
-
 .shirt-tie {
-  justify-content: end;
+  justify-content: center;
 }
 
 .text-blue {
@@ -306,6 +300,10 @@ About
   max-height: 16rem;
 }
 
+#our-vision .left-grey-triangle {
+  height: auto;
+  max-height: 16rem;
+}
 #our-vision .right-grey-triangle {
   height: auto;
   max-height: 16rem;
@@ -343,9 +341,7 @@ About
     font-size: 3.5rem;
     padding-top: 20px;
   }
-  .shirt-tie img {
-    height: 400px;
-  }
+  
 }
 
 @media screen and (max-width: 1000px) {
@@ -353,9 +349,7 @@ About
     font-size: 3.5rem;
     padding-top: 20px;
   }
-  .shirt-tie img {
-    height: 400px;
-  }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -365,10 +359,7 @@ About
   #logo {
     width: 100% !important;
   }
-  .shirt-tie img {
-    height: 400px;
-    padding-top: 50px;
-  }
+  
   #pink-triangle {
     display: none;
   }
@@ -408,6 +399,11 @@ About
   margin-top: 82px;
 }
 
+
 .container.text-center #social .social-icon {
   height: calc(1.5rem + 0.4vw);
+}
+
+#nav-tab .nav-link.active {
+  color: #14e9ff;
 }
