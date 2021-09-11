@@ -75,6 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $myObj = new stdClass();
                     $myObj->status = "success";
                     $myObj->message = "Login Succesful";
+                    $myObj->name = $row['full_name'];
                     echo json_encode($myObj);
                     die();
                 } else {
