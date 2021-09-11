@@ -28,7 +28,7 @@ include('stickyform.php');
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="d-flex justify-content-between align-items-center shirt-tie">
-                    <img src="./media/images/shirt-tie.png" alt="shirt-tie">
+                    <img src="./media/images/shirt-new-tie.png" alt="shirt-tie">
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@ include('stickyform.php');
                 </span>
             </div>
         </div>
-        <div class="text-center mt-4"> <button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Get a quote</button></div>
+        <div class="text-center mt-4"> <button type="button" class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Explore Us</button></div>
     </div>
 </section>
 
@@ -313,7 +313,12 @@ include('stickyform.php');
                 <img src="media\images\home-digitalPatner-inchToMilez.png" alt="explore horizons banner" class="w-35 d-none d-md-block">
             </div>
         </div>
-        <div id="social" class="mt-5">
+    </div>
+    <div class="d-flex justify-content-start my-5 ">
+        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50"/>
+    </div>
+    <div class="container text-center">
+        <div id="social" class="my-5">
             <div class="row">
                 <div class="col-12">
                     <spam class="ff-Azonix primary-blue display-1">Link</spam>
@@ -330,9 +335,11 @@ include('stickyform.php');
                 </div>
             </div>
         </div>
-
     </div>
 </section>
+<div class="d-flex justify-content-end ">
+    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50"/>
+</div>
 
 <?php
 include('footer.php');

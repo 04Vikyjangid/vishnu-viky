@@ -134,9 +134,34 @@ include('stickyform.php');
 </div>
 </div>
 </div>
+<div class="d-flex justify-content-start my-5 ">
+        <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50"/>
+    </div>
+    <div class="container text-center">
+        <div id="social" class="my-5">
+            <div class="row">
+                <div class="col-12">
+                    <spam class="ff-Azonix primary-blue display-1">Link</spam>
+                    <spam class="ff-Azonix primary-pink display-2">With</spam>
+                    <spam class="ff-Azonix primary-blue display-1">Us</spam>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon" class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon" class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon" class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon" class="social-icon m-1">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="d-flex justify-content-end ">
+    <img src="./media/images/home-digitalPatner-line.png"  alt="pink-triangle" class="W-50"/>
+</div>
 
-
-<div class="container text-center my-5">
+<!-- <div class="container text-center my-5">
     <div class="neon-wrapper">
         <span class="txt ff-Azonix float-left">LINK</span>
         <span class="gradient"></span>
@@ -152,7 +177,7 @@ include('stickyform.php');
         <span class="gradient"></span>
         <span class="dodge"></span>
     </div>
-</div>
+</div> -->
 
 <?php
 include('footer.php');

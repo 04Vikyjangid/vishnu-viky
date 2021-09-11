@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: Austhind;
     src: url("./../media/fonts/austhind/Austhind.otf") format("opentype");
@@ -61,13 +60,10 @@ section {
 }
 
 .shirt-tie img {
-    height: 90vh;
-    width: 80vh;
-    margin-left: 20px;
-}
-
-.shirt-tie {
-    justify-content: end;
+    height: 70vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-blue {
@@ -361,6 +357,11 @@ About
     .shirt-tie img {
         height: 400px;
     }
+    /* .footer-heading {
+        margin-left: auto;
+        justify-content: center !important;
+        text-align: center !important;
+    } */
 }
 
 @media screen and (max-width: 600px) {
@@ -377,4 +378,14 @@ About
     #pink-triangle {
         display: none;
     }
+    /* .footer-ul li {
+        margin-left: 20px;
+        justify-content: center !important;
+        text-align: center !important;
+    } */
+    /* .footer-heading {
+        margin-left: 20px;
+        justify-content: center !important;
+        text-align: center !important;
+    } */
 }
