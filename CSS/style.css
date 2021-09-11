@@ -394,18 +394,20 @@ About
   background-color: #000;
   color: #a1a1a1;
 }
-   
-    .contact-circle img {
-        max-width: 400px;
-        height: 350px;
-        margin-left: 20%;
-    }
-    
-    .contact-que img {
-        max-width: 400px;
-        height: 350px;
-        margin-left: 130px;
-        margin-top: 82px;
-    }
-    
 
+.contact-circle img {
+  max-width: 400px;
+  height: 350px;
+  margin-left: 20%;
+}
+
+.contact-que img {
+  max-width: 400px;
+  height: 350px;
+  margin-left: 130px;
+  margin-top: 82px;
+}
+
+.container.text-center #social .social-icon {
+  height: calc(1.5rem + 0.4vw);
+}

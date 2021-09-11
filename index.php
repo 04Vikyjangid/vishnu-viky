@@ -346,6 +346,10 @@ include('stickyform.php');
                 <img src="media\images\home-digitalPatner-inchToMilez.png" alt="explore horizons banner"
                     class="w-35 d-none d-md-block">
             </div>
+            <div class="text-center mt-4"> <a class="text-decoration-none" href="./contact_us.php"><button type="button"
+                        class="btn btn-outline-light text-uppercase btn-lg rounded-pill fw-bold">Talk to an
+                        Expert</button></a>
+            </div>
         </div>
     </div>
     <div class="d-flex justify-content-start my-5 ">
@@ -362,13 +366,14 @@ include('stickyform.php');
             </div>
             <div class="row">
                 <div class="col-12">
-                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
-                        class="social-icon m-1">
                     <img src="./media/images/home-digitalPatner-socialIcon-2.png" alt="social icon"
+                        class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
                         class="social-icon m-1">
                     <img src="./media/images/home-digitalPatner-socialIcon-3.png" alt="social icon"
                         class="social-icon m-1">
-                    <img src="./media/images/home-digitalPatner-socialIcon-4.png" alt="social icon"
+                    <img src="./media/images/twitter-logo-4.png" alt="social icon" class="social-icon m-1">
+                    <img src="./media/images/home-digitalPatner-socialIcon-1.png" alt="social icon"
                         class="social-icon m-1">
                 </div>
             </div>
