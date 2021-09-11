@@ -31,24 +31,12 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
 
-                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
-                                                                echo 'active';
-                                                            } ?>" href="./services.php">RPO</a></li>
-                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
-                                                                echo 'active';
-                                                            } ?>" href="./services.php">Digital Marketing</a></li>
-                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
-                                                                echo 'active';
-                                                            } ?>" href="./services.php">Training & Development</a></li>
-                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
-                                                                echo 'active';
-                                                            } ?>" href="./services.php">Payroll Handeling</a></li>
-                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
-                                                                echo 'active';
-                                                            } ?>" href="./services.php">Couselling</a></li>
-                                <li><a class="dropdown-item <?php if ($pageTitle == 'Our Services') {
-                                                                echo 'active';
-                                                            } ?>" href="./services.php">Corporate Events</a></li>
+                                <li><a class="dropdown-item" href="./services.php">RPO</a></li>
+                                <li><a class="dropdown-item" href="./services.php">Digital Marketing</a></li>
+                                <li><a class="dropdown-item" href="./services.php">Training & Development</a></li>
+                                <li><a class="dropdown-item" href="./services.php">Payroll Handeling</a></li>
+                                <li><a class="dropdown-item" href="./services.php">Couselling</a></li>
+                                <li><a class="dropdown-item" href="./services.php">Corporate Events</a></li>
 
                             </ul>
                         </li>
