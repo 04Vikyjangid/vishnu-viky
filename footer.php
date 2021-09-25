@@ -140,6 +140,6 @@
 <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js">
 </script>
 <script src="./js/navbar.js"></script>
-<script src="./js/script.js"></script>
+<!-- <script src="./js/script.js"></script> -->
 
 </html>
